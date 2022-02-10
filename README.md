@@ -47,3 +47,9 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
 |--------------|--------------------|
 | mtgsdk 1.3.1 | pip install mtgsdk |
 | TinyDB 4.6.1 | pip install tinydb |
+
+
+## Running journal
+
+### 2/10/22 13:07
+ - Initialized active GitHub repo
