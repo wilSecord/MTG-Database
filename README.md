@@ -51,5 +51,9 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
 
 ## Running journal
 
-### 2/10/22 13:07
- - Initialized active GitHub repo
+* **2/10/22**
+    * **13:07**
+        * Initialized active GitHub repo
+    * **13:20**
+        * Added the ability to read from a .txt file
+        * Added example "LIST.txt" file 
