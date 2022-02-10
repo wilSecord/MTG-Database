@@ -29,16 +29,16 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
 
 - [ ] The next goal is to simplify the way to input names of cards. This may end up looking like a text file where I manually input names of cards and read that text file as the input.
 
-####**Stretch goals**
+#### Stretch goals
 - [ ] Create or find a way to view the database or somehow search through it.
 
 <br>
 
-###The end goal will be to make a universal tool that can database MTG cards and can be used by many.
+### The end goal will be to make a universal tool that can database MTG cards and can be used by many.
 
-##Tools Used
+## Tools Used
 
-###This databasing tool will utilize the following PiPy packages: 
+### This databasing tool will utilize the following PiPy packages: 
 
 *(This list may be appended or changed until I am satisfied with the project)*
 
