@@ -1,4 +1,4 @@
-Palladium Myr
-Forest
-Llanowar Elves
-Elvish Mystic
+Plains,2021,268
+Aasdfafs,2022,346
+Fog,2011,173
+Plains,2017,262

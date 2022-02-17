@@ -57,3 +57,9 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
     * **13:20**
         * Added the ability to read from a .txt file
         * Added example "LIST.txt" file 
+
+* **2/17/22**
+    * **13:12**
+        * Moved from identifying cards with name and year to name, year, and number
+        * Added an extra output of the failed card identification
+        * Updated output to allow it to have duplicate cards for count of cards
