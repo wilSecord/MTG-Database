@@ -47,7 +47,7 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
 |--------------|--------------------|
 | mtgsdk 1.3.1 | pip install mtgsdk |
 | TinyDB 4.6.1 | pip install tinydb |
-
+| Rich 11.2.0  | pip install rich   |
 
 ## Running journal
 
@@ -68,4 +68,7 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
         * Collects data more efficiently
         * Created "failed.txt" to collect a list of failed cards
         * Outputs data via tinydb to "mtg.json"
-        * Better UX with output to console (WORK IN PROGRESS)
+        * Better UX with output to console 
+    * **13:16**
+        * Imported "rich" library for console output
+        * Optimized output to the database for better access later
