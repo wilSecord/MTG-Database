@@ -63,3 +63,9 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
         * Moved from identifying cards with name and year to name, year, and number
         * Added an extra output of the failed card identification
         * Updated output to allow it to have duplicate cards for count of cards
+* **2/18/22**
+    * **10:44**
+        * Collects data more efficiently
+        * Created "failed.txt" to collect a list of failed cards
+        * Outputs data via tinydb to "mtg.json"
+        * Better UX with output to console (WORK IN PROGRESS)
