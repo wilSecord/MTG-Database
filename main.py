@@ -40,7 +40,7 @@ for item in ids:
         cards.append(c)
         db.insert({'Name': c.name, 'Mana Cost': c.mana_cost, 'CMC': c.cmc, 'Color(s)': c.colors,
                    'Type': c.type, 'Subtype(s)': c.subtypes, 'Rarity': c.rarity, 'Text': c.text,
-                   'Pow/Tough': f'{c.power}/{c.toughness}', 'Loyalty': c.loyalty, 'Image': c.image_url})
+                   'Pow/Tough': f'{c.power}/{c.toughness}', 'Loyalty': c.loyalty, 'Image': c.image_url, 'Set': c.set})
 
     except IndexError:
         failed.append(item)

@@ -24,10 +24,10 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
 
 #### **WIP goals**
 
-- [ ] The first goal is to find a way to properly store the information needed for each card
+- [x] The first goal is to find a way to properly store the information needed for each card
 
 
-- [ ] The next goal is to simplify the way to input names of cards. This may end up looking like a text file where I manually input names of cards and read that text file as the input.
+- [x] The next goal is to simplify the way to input names of cards. This may end up looking like a text file where I manually input names of cards and read that text file as the input.
 
 #### Stretch goals
 - [ ] Create or find a way to view the database or somehow search through it.
@@ -72,3 +72,8 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
     * **13:16**
         * Imported "rich" library for console output
         * Optimized output to the database for better access later
+* **3/1/22**
+    * **13:24**
+        * Added access.py which will be used to access the database
+        * Worked with passing arguments via console (commented out in access.py)
+        * Added column "Set" to the table output
