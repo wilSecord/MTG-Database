@@ -17,7 +17,7 @@ with open('LIST.txt') as f:
 
     for i in range(len(ids)):
         ids[i] = ids[i].split(',')
-        con.print(f'[white]{i * round((100/len(ids)), 3)}%')
+        con.print(f'[white]{round(i * round((100/len(ids)), 3), 1)}%')
 
     con.print('[white]100.0%')
     for i in range(len(ids)):
@@ -33,7 +33,7 @@ i = 0
 
 for item in ids:
     i += 1
-    con.print(f'[white]{i * round((100/len(ids)), 3)}%')
+    con.print(f'[white]{round(i * round((100/len(ids)), 3), 1)}%')
     try:
         c = list(mtg.Card.where(name=item[0], year=int(item[1]), number=int(item[2])).all())[0]
         cards_n.append(c.name)

@@ -77,3 +77,6 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
         * Added access.py which will be used to access the database
         * Worked with passing arguments via console (commented out in access.py)
         * Added column "Set" to the table output
+* **3/7/22**
+    * **10:33**
+        * Added a run.bat file to better print to console.
