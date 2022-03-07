@@ -1,1 +1,1 @@
-python access.py
+START /MAX access.bat
