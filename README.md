@@ -84,3 +84,7 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
     * **13:27**
         * Added more features to search by (converted mana cost, WIP colors)
         * Added an "access.bat" file to further the command-line experience.
+* **3/15/22**
+    * **10:28**
+        * Cleaned up code.
+        * Allowed search in text for name searches.

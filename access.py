@@ -5,6 +5,7 @@ import sys
 from rich.table import Table
 from rich.console import Console
 import os
+import re
 
 db = tdb.TinyDB('mtg.json')
 Card = Query()
@@ -27,6 +28,7 @@ t.add_column('Mana Cost', no_wrap=True)
 t.add_column('CMC', no_wrap=True)
 t.add_column('Color(s)', no_wrap=True)
 t.add_column('Type', no_wrap=True)
+t.add_column('Subtype(s)', no_wrap=True)
 t.add_column('Rarity', no_wrap=True)
 t.add_column('Text', no_wrap=False)
 t.add_column('Power/Toughness', no_wrap=True)
@@ -34,65 +36,63 @@ t.add_column('Loyalty', no_wrap=True)
 t.add_column('Count', no_wrap=True)
 
 
-
-if not args:
-    for i in db:
+def search(arg):
+    for i in arg:
         if i["Name"] not in cs:
             col = str(i["Color(s)"])
             col = col.strip('[]')
             col = col.replace("'", "")
-            t.add_row(i["Name"], str(i["Mana Cost"]), str(i["CMC"]), col, i["Type"], i["Rarity"], i["Text"],
+            st = str(i["Subtype(s)"])
+            st = st.strip('[]')
+            st = st.replace("'", "")
+            t.add_row(i["Name"], str(i["Mana Cost"]), str(i["CMC"]), col, i["Type"], st, i["Rarity"], i["Text"],
                       i["Pow/Tough"], str(i["Loyalty"]), str(ln.count(i["Name"])))
             cs.append(i["Name"])
     c.print(t)
+
+
+if not args:
+    search(db)
+
 else:
     match args[0]:
+
         case '-n' | '--name':
-            for i in db.search(Card['Name'] == args[1]):
-                if i["Name"] not in cs:
-                    col = str(i["Color(s)"])
-                    col = col.strip('[]')
-                    col = col.replace("'", "")
-                    t.add_row(i["Name"], str(i["Mana Cost"]), str(i["CMC"]), col, i["Type"], i["Rarity"], i["Text"],
-                              i["Pow/Tough"], str(i["Loyalty"]), str(ln.count(i["Name"])))
-                    cs.append(i["Name"])
-            c.print(t)
+            search(db.search(Card.Name.matches(f'([A-z]*){args[1]}([A-z]*)', flags=re.IGNORECASE)))
+
         case '-mc' | '--cmc':
             args[1] = float(args[1])
-            for i in db.search(Card['CMC'] == args[1]):
-                if i["CMC"] not in cs:
-                    col = str(i["Color(s)"])
-                    col = col.strip('[]')
-                    col = col.replace("'", "")
-                    t.add_row(i["Name"], str(i["Mana Cost"]), str(i["CMC"]), col, i["Type"], i["Rarity"], i["Text"],
-                              i["Pow/Tough"], str(i["Loyalty"]), str(ln.count(i["Name"])))
-                    cs.append(i["CMC"])
-            c.print(t)
+            search(db.search(Card['CMC'] == args[1]))
+
         case '-c' | '--colors':
             clrs = []
             if args[1].upper() == "NONE":
-                print('None')
+                clrs = None
             else:
                 for char in args[1]:
                     match char.upper():
-                        case 'A':
-                            print('Blue')
+                        case 'U':
+                            clrs.append("Blue")
                         case 'B':
-                            print('Black')
+                            clrs.append("Black")
                         case 'R':
-                            print('Red')
+                            clrs.append("Red")
                         case 'W':
-                            print('White')
+                            clrs.append("White")
                         case 'G':
-                            print('Green')
-                        case 'C':
-                            print('Colorless')
-    #     case '-t' | '--type':
-    #         print('Type')
-    #     case '-st' | '--subtypes':
-    #         print('Subtype(s)')
-    #     case '-r' | '--rarity':
-    #         print('Rarity')
+                            clrs.append("Green")
+
+            search(db.search(Card['Color(s)'] == clrs))
+
+        case '-t' | '--type':
+            search(db.search(Card['Type'] == args[1]))
+
+        case '-st' | '--subtypes':
+            search(db.search(Card['Subtype(s)'] == args[1]))
+
+        case '-r' | '--rarity':
+            search(db.search(Card['Rarity'] == args[1]))
+
     #     case '-it' | '--intext':
     #         print('Searching texts...')
     #     case '-pt' | '--powtough':

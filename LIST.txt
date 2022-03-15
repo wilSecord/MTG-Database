@@ -4,3 +4,6 @@ Fog,2011,173
 Plains,2017,262
 Walker of the Wastes,2016,10
 Walker of the Wastes,2016,10
+Stormtide Leviathan,2010,74
+Eye of Ugin,2010,136
+Cultivator Drone,2016,42
