@@ -91,3 +91,6 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
 * **3/16/22**
     * **12:44**
         * Allowed the option to search for all cards with any of the colors listed or all cards with only the colors listed.
+    * **13:20**
+        * Completed search function as of now. Able to search by name, colors, converted mana cost, type, subtype, rarity, in text search for description, and power/toughness
+        * NOTE: I want to work more on the power/toughness search as you can only search by both at the same time instead of one or the other separately.

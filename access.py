@@ -58,7 +58,7 @@ else:
     match args[0]:
 
         case '-n' | '--name':
-            search(db.search(Card.Name.matches(f'([A-z]*){args[1]}([A-z]*)', flags=re.IGNORECASE)))
+            search(db.search(Card.Name.search(f'([A-z]*){args[1]}([A-z]*)', flags=re.IGNORECASE)))
 
         case '-mc' | '--cmc':
             args[1] = float(args[1])
@@ -109,10 +109,8 @@ else:
         case '-r' | '--rarity':
             search(db.search(Card['Rarity'] == args[1]))
 
-    #     case '-it' | '--intext':
-    #         print('Searching texts...')
-    #     case '-pt' | '--powtough':
-    #         print('power/toughness')
-    #     case '-s' | '--sort':
-    #         print('sorted')
+        case '-it' | '--intext':
+            search(db.search(Card.Text.search(f'([A-z]*){args[1]}([A-z]*)', flags=re.IGNORECASE)))
 
+        case '-pt' | '--powtough':
+            search(db.search(Card['Power/Toughnes'] == args[1]))
