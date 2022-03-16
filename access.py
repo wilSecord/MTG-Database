@@ -69,20 +69,36 @@ else:
             if args[1].upper() == "NONE":
                 clrs = None
             else:
-                for char in args[1]:
-                    match char.upper():
-                        case 'U':
-                            clrs.append("Blue")
-                        case 'B':
-                            clrs.append("Black")
-                        case 'R':
-                            clrs.append("Red")
-                        case 'W':
-                            clrs.append("White")
-                        case 'G':
-                            clrs.append("Green")
+                if args[1][0] == '=':
+                    args[1] = args[1].replace('=', '')
+                    for char in args[1]:
+                        match char.upper():
+                            case 'U':
+                                clrs.append("Blue")
+                            case 'B':
+                                clrs.append("Black")
+                            case 'R':
+                                clrs.append("Red")
+                            case 'W':
+                                clrs.append("White")
+                            case 'G':
+                                clrs.append("Green")
+                    search(db.search(Card['Color(s)'] == clrs))
+                else:
+                    for char in args[1]:
+                        match char.upper():
+                            case 'U':
+                                clrs.append("Blue")
+                            case 'B':
+                                clrs.append("Black")
+                            case 'R':
+                                clrs.append("Red")
+                            case 'W':
+                                clrs.append("White")
+                            case 'G':
+                                clrs.append("Green")
 
-            search(db.search(Card['Color(s)'] == clrs))
+                    search(db.search(Card['Color(s)'].any(clrs)))
 
         case '-t' | '--type':
             search(db.search(Card['Type'] == args[1]))

@@ -88,3 +88,6 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
     * **10:28**
         * Cleaned up code.
         * Allowed search in text for name searches.
+* **3/16/22**
+    * **12:44**
+        * Allowed the option to search for all cards with any of the colors listed or all cards with only the colors listed.
