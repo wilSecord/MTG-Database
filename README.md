@@ -94,3 +94,6 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
     * **13:20**
         * Completed search function as of now. Able to search by name, colors, converted mana cost, type, subtype, rarity, in text search for description, and power/toughness
         * NOTE: I want to work more on the power/toughness search as you can only search by both at the same time instead of one or the other separately.
+* **3/17/22**
+    * **12:38**
+        * Fixed "main.py" to clear the db before storing data.

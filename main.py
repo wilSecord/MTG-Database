@@ -10,6 +10,9 @@ failed = []
 cards = []
 con = Console(color_system='standard')
 
+with open('mtg.json', 'w+') as t:
+    t.truncate(0)
+
 with open('LIST.txt') as f:
     for item in f.readlines():
         ids.append(item)
@@ -26,9 +29,6 @@ with open('LIST.txt') as f:
 
 con.print('\n[green]Collecting card data')
 i = 0
-
-# test = [list(mtg.Card.where(name=item[0], year=int(item[1]), number=int(item[2])).all())[0] for item in ids]
-
 
 
 for item in ids:
