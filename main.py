@@ -26,8 +26,7 @@ with open('LIST.txt') as f:
     for i in range(len(ids)):
         for j in range(len(ids[i])):
             ids[i][j] = ids[i][j].rstrip()
-print(ids)
-
+            
 con.print('\n[green]Collecting card data')
 i = 0
 
