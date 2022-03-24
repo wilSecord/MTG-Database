@@ -19,13 +19,14 @@ with open('LIST.txt') as f:
     con.print('[green]Parsing collected ids.')
 
     for i in range(len(ids)):
-        ids[i] = ids[i].split(',')
+        ids[i] = ids[i].split(';')
         con.print(f'[white]{round(i * round((100/len(ids)), 3), 1)}%')
 
     con.print('[white]100.0%')
     for i in range(len(ids)):
         for j in range(len(ids[i])):
             ids[i][j] = ids[i][j].rstrip()
+print(ids)
 
 con.print('\n[green]Collecting card data')
 i = 0
@@ -40,7 +41,8 @@ for item in ids:
         cards.append(c)
         db.insert({'Name': c.name, 'Mana Cost': c.mana_cost, 'CMC': c.cmc, 'Color(s)': c.colors,
                    'Type': c.type, 'Subtype(s)': c.subtypes, 'Rarity': c.rarity, 'Text': c.text,
-                   'Pow/Tough': f'{c.power}/{c.toughness}', 'Loyalty': c.loyalty, 'Image': c.image_url, 'Set': c.set})
+                   'Pow/Tough': f'{c.power}/{c.toughness}', 'Loyalty': c.loyalty, 'Image': c.image_url,
+                   'Set': c.set})
 
     except IndexError:
         failed.append(item)
