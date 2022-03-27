@@ -97,3 +97,7 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
 * **3/17/22**
     * **12:38**
         * Fixed "main.py" to clear the db before storing data.
+* **3/27/22**
+    * **18:55**
+        * Attempting to use "Tkinter" to create a better visualization of the database.
+        * Fully implemented the "Tkinter" use, bar search/sort, into "n_access.py"
