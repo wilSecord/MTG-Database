@@ -9,13 +9,16 @@ win = tk.Tk()
 win.title('MTG Card DB')
 win.state('zoomed')
 win['bg'] = '#3d424d'
+cols = {'name': ['Name', 150], 'mc': ['Mana Cost', 100], 'col': ['Color(s)', 100], 'type': ['Type', 250],
+        'rarity': ['Rarity', 80], 'pt': ['Pow/Tough', 80], 'count': ['Count', 80]}
+tree = ttk.Treeview(win, columns=list(cols.keys()), show='headings', height=30, selectmode='browse')
+
+def select_item(event, d):
+    d = tree.item(d)
+    out = db.search(Card["Name"].search(d['values'][0]))
+    print(out[0])
 
 def setup():
-    cols = {'name': ['Name', 150], 'mc': ['Mana Cost', 100], 'col': ['Color(s)', 100], 'type': ['Type', 250],
-            'rarity': ['Rarity', 80], 'pt': ['Pow/Tough', 80], 'set': ['Set', 80], }
-
-    tree = ttk.Treeview(win, columns=list(cols.keys()), show='headings', height=30)
-
     for k, v in cols.items():
         tree.heading(k, anchor='w', text=v[0])
         tree.column(k, anchor='w', width=v[1])
@@ -25,6 +28,8 @@ def setup():
     scrollbar = ttk.Scrollbar(win, orient=tk.VERTICAL, command=tree.yview)
     tree.configure(yscroll=scrollbar.set)
     scrollbar.grid(row=0, column=0, sticky='ns')
+    tree.bind('<ButtonRelease-1>', lambda event: select_item(event, tree.focus()))
+
     return tree
 
 def replace_none(t, o):
@@ -50,7 +55,9 @@ def insert():
         else:
             col = ''
         tree.insert('', tk.END, values=(item['Name'], mc, col, item['Type'],
-                                        item['Rarity'], pt, item['Set'],))
+                                        item['Rarity'], pt, str(list_names.count(item["Name"])), item['Set']))
+
+
 
 def main():
     insert()

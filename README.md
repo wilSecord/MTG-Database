@@ -29,6 +29,8 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
 
 - [x] The next goal is to simplify the way to input names of cards. This may end up looking like a text file where I manually input names of cards and read that text file as the input.
 
+
+- [ ] Fully implement a view card data system to display details of card in a separate area in the window.
 #### Stretch goals
 - [ ] Create or find a way to view the database or somehow search through it.
 
@@ -47,7 +49,7 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
 |--------------|--------------------|
 | mtgsdk 1.3.1 | pip install mtgsdk |
 | TinyDB 4.6.1 | pip install tinydb |
-| Rich 11.2.0  | pip install rich   |
+| Tkinter 8.6  | pip install tk     |
 
 ## Running journal
 
@@ -56,8 +58,7 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
         * Initialized active GitHub repo
     * **13:20**
         * Added the ability to read from a .txt file
-        * Added example "LIST.txt" file 
-
+        * Added example "LIST.txt" file
 * **2/17/22**
     * **13:12**
         * Moved from identifying cards with name and year to name, year, and number
@@ -100,4 +101,16 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
 * **3/27/22**
     * **18:55**
         * Attempting to use "Tkinter" to create a better visualization of the database.
-        * Fully implemented the "Tkinter" use, bar search/sort, into "n_access.py"
+        * Fully implemented the "Tkinter" use, bar search/sort, into "n_access.py
+
+###Before:
+![Console](console_run.PNG)
+###After:
+![Tkinter](tk_run.PNG)
+
+* **3/29/22**
+    * **12:37**
+        * Progressed through working getting selections to work.
+        * Updated "Goals" section of README
+        * Updated previous log in README to include before and after pictures
+        * Updated libraries used to include "Tkinter" and remove "rich"
