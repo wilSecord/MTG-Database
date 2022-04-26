@@ -1,9 +1,59 @@
-Plains,2021,268
-Aasdfafs,2022,346
-Fog,2011,173
-Plains,2017,262
-Walker of the Wastes,2016,10
-Walker of the Wastes,2016,10
-Stormtide Leviathan,2010,74
-Eye of Ugin,2010,136
-Cultivator Drone,2016,42
+Legion Loyalist;2018;82
+Gird for Battle;2018;12
+Sunhome Stalwart;2018;26
+Boros Swiftblade;2018;86
+Boros Swiftblade;2018;86
+Blade Instructor;2018;1
+Boros Signet;2018;97
+Mountain;2018;101
+Mountain;2018;101
+Mountain;2018;101
+Mountain;2018;101
+Mountain;2018;101
+Boros Garrison;2018;098
+Boros Garrison;2018;098
+Boros Garrison;2018;098
+Boros Guildgate;2018;243
+Boros Guildgate;2018;243
+Aurelia, the Warleader;2018;77
+Master Warcraft;2018;92
+Sunhome Guildmage;2018;95
+Sunhome Guildmage;2018;95
+Plains;2018;100
+Plains;2018;100
+Plains;2018;100
+Plains;2018;100
+Plains;2018;100
+Hammer Dropper;2018;176
+Martial Glory;2018;91
+Firemane Avenger;2018;89
+Daring Skyjek;2018;79
+Boros Guildgate;2018;243
+Agrus Kos, Wojek Veteran;2018;83
+Wojek Bodyguard;2018;120
+Frenzied Goblin;2018;81
+Swiftblade Vindicator;2018;203
+Light of the Legion;2018;19
+Brightflame;2018;87
+Spark Trooper;2018;94
+Legion Warboss;2018;109
+Boros Reckoner;2018;85
+Lightning Helix;2018;90
+Boros Charm;2018;84
+Bomber Corps;2018;80
+Mountain;2018;101
+Mountain;2018;101
+Skyknight Legionnaire;2018;198
+Plains;2018;100
+Boros Signet;2018;97
+Boros Keyrune;2018;96
+Boros Garrison;2018;98
+Boros Guildgate;2018;244
+Sunhome;2018;99
+Plains;2018;100
+Plains;2018;100
+Razia, Boros Archangel;2018;93
+Firemane Angel;2018;88
+Sworn Companions;2018;27
+Skyknight Legionnaire;2018;198
+Boros Elite;2018;78

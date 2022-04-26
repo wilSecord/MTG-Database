@@ -7,6 +7,7 @@ from rich.console import Console
 import os
 import re
 
+
 db = tdb.TinyDB('mtg.json')
 Card = Query()
 c = Console(color_system='windows')

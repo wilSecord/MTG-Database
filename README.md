@@ -114,3 +114,7 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
         * Updated "Goals" section of README
         * Updated previous log in README to include before and after pictures
         * Updated libraries used to include "Tkinter" and remove "rich"
+* **4/26/22**
+    * **13:23**
+        * Fully implemented the "Count" column.
+        * Implemented a semi-functioning card view system on selection.
