@@ -2,6 +2,7 @@ import tinydb as tdb
 from tinydb import Query
 import tkinter as tk
 from tkinter import ttk
+import re
 
 db = tdb.TinyDB('mtg.json')
 _all = db.all()
@@ -30,16 +31,30 @@ def setup_tv():
 
     scrollbar = ttk.Scrollbar(win, orient=tk.VERTICAL, command=tree.yview)
     tree.configure(yscroll=scrollbar.set)
-    scrollbar.pack(side='left', fill='y')
+    search = tk.Entry(win)
+    scrollbar.grid(row=1, column=0, sticky='WNS')
+    # scrollbar.pack(side='left', fill='y')
+    search.grid(row=0, column=1, sticky='EW')
     tree.bind('<ButtonRelease-1>', lambda event: select_item(event, tree.focus()))
-    tree.pack(side='left', fill='y')
+    # tree.pack(side='left', fill='y')
+    tree.grid(row=1, column=1)
+
+    search.bind('<Return>', lambda event: insert_to_tv(srch(search.get())))
 
     return tree
 
-def insert_to_tv():
-    tree = setup_tv()
+
+tree = setup_tv()
+
+
+def insert_to_tv(cards):
+    children = tree.get_children('')
+
+    for child in children:
+        tree.delete(child)
+
     list_names = []
-    for item in _all:
+    for item in cards:
         list_names.append(item['Name'])
 
     def replace_none(t, o):
@@ -49,16 +64,7 @@ def insert_to_tv():
             temp = ''
         return temp
 
-
-
-    # for item in range(len(list(db))):
-    #     print(type(dict(list(db)[item])))
-
-    # for item in list_names:
-    #     print(item)
-
-
-    for item in db:
+    for item in cards:
         pt = replace_none(item['Pow/Tough'], 'None/None')
         mc = replace_none(item['Mana Cost'], None)
         if item['Color(s)']:
@@ -70,8 +76,8 @@ def insert_to_tv():
         tree.insert('', tk.END, values=(item['Name'], mc, col, item['Type'],
                                         item['Rarity'], pt, str(list_names.count(item["Name"]))))
 
-
     children = tree.get_children('')
+
     for child in children:
         vals = tree.item(child, 'values')
         if list_names.count(vals[0]) > 1:
@@ -79,19 +85,34 @@ def insert_to_tv():
             list_names.remove(vals[0])
 
 def create_txt(arg):
-    if len(win.winfo_children()) > 2:
-        win.winfo_children()[2].destroy()
-    att = ['Name', 'Mana Cost', 'CMC', 'Color(s)', 'Type', 'Subtype(s)', 'Rarity', 'Text', 'Pow/Tough', 'Loyalty']
-    card_prev = tk.Canvas(win, bg='#FFFFFF', height=500, width=400)
+    if len(win.winfo_children()) > 3:
+        win.winfo_children()[3].destroy()
+    att = ['Name', 'Mana Cost', 'CMC', 'Color(s)', 'Type', 'Subtype(s)', 'Rarity', 'Pow/Tough', 'Loyalty']
+    card_prev = tk.Canvas(win, bg='#3d424d', height=500, width=400, highlightthickness=0)
     for i in range(len(att)):
-        card_prev.create_text(15, 25 + (i * 50), anchor='w', text=f'{att[i]}: {arg[att[i]]}', justify=tk.LEFT, width=350)
-    card_prev.pack(side='top')
+        card_prev.create_text(15, 25 + (i * 50), anchor='w', text=f'{att[i]}: {arg[att[i]]}', justify=tk.LEFT, width=350, fill="#FFFFFF")
+    card_prev.create_text(15, 475, anchor='nw', text=f'Text: {arg["Text"]}', justify=tk.LEFT, width=350, fill="#FFFFFF")
+    # card_prev.pack(side='top')
+    card_prev.grid(row=1, column=2, sticky='NS')
 
+
+def srch(in_txt):
+    if in_txt:
+        match in_txt[0]:
+            case 't':
+                arg = in_txt.replace('t', '').replace('()', '')
+                results = db.search(Card['Text'].search(str(arg), flags=re.IGNORECASE))
+                return results
+    else:
+        return _all
 
 def main():
-    insert_to_tv()
+    insert_to_tv(srch(''))
+    # insert_to_tv(_all)
+    # search()
     # print(db.search(Card['Name'] == 'Plains'))
     win.mainloop()
+
 
 
 if __name__ == '__main__':

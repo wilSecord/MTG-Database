@@ -118,3 +118,6 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
     * **13:23**
         * Fully implemented the "Count" column.
         * Implemented a semi-functioning card view system on selection.
+* **5/14/22
+    * **01:23**
+        * it is 01:23 in the morning and i just finished hand databasing over 1600 cards. im tired. i wrote a quick proof of concept search bar. ill finish it tomorrow. this will probably not end up on the readme but idk maybe ill upload it im so tired please god.
