@@ -1,6 +1,8 @@
 import mtgsdk as mtg
 import tinydb as tdb
 from rich.console import Console
+import requests as r
+import os
 
 db = tdb.TinyDB('mtg.json')
 run = True
@@ -53,10 +55,17 @@ for item in ids:
                                'Set': c.set})
 
         cards_n.append(c.name)
+        print(c.name, c.image_url)
+        if not os.path.exists(f'imgs/{c.name.replace("/", "")}.ppm'):
+            file = open(f'imgs/{c.name.replace("/", "")}.ppm', 'wb')
+            file.write(r.get(c.image_url).content)
+            file.close()
 
     except IndexError:
         failed.append(item)
         con.print(f'[red]Card with attributes [/red]{item}[red] failed to load.[/red]')
+
+con.print('[white]100.0%')
 
 with open('failed.txt', 'w+') as f:
     f.write(str(failed))
