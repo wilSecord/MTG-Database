@@ -109,13 +109,13 @@ def create_txt(arg):
     # if len(win.winfo_children()) > 4:
     #     win.winfo_children()[4].destroy()
     att = ['Name', 'Mana Cost', 'CMC', 'Color(s)', 'Type', 'Subtype(s)', 'Rarity', 'Pow/Tough', 'Loyalty']
-    card_prev = tk.Canvas(win, width=500, bg='#3d424d', highlightthickness=1)
+    card_prev = tk.Canvas(win, width=700, bg='#3d424d', highlightthickness=1)
     im = Image.open(f'imgs/{arg["Name"].replace("/", "")}.ppm')
-    img = ImageTk.PhotoImage(im)
+    img = ImageTk.PhotoImage(im.resize((335, 466)))
     for i in range(len(att)):
         card_prev.create_text(15, 25 + (i * 50), anchor='w', text=f'{att[i]}: {arg[att[i]]}', justify=tk.LEFT, width=200, fill="#FFFFFF")
     card_prev.create_text(15, 475, anchor='nw', text=f'Text: {arg["Text"]}', justify=tk.LEFT, width=200, fill="#FFFFFF")
-    card_prev.create_image(200, 25, anchor='nw', image=img)
+    card_prev.create_image(250, 25, anchor='nw', image=img)
     # lbl = tk.Label(win, image=img)
     card_prev.photo = img
     # lbl.grid(row=1, column=3)

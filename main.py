@@ -1,4 +1,5 @@
 import mtgsdk as mtg
+import requests.exceptions
 import tinydb as tdb
 from rich.console import Console
 import requests as r
@@ -33,6 +34,7 @@ with open('LIST.txt') as f:
 con.print('\n[green]Collecting card data')
 i = 0
 
+missing = []
 
 for item in ids:
     i += 1
@@ -55,17 +57,21 @@ for item in ids:
                                'Set': c.set})
 
         cards_n.append(c.name)
-        print(c.name, c.image_url)
-        if not os.path.exists(f'imgs/{c.name.replace("/", "")}.ppm'):
-            file = open(f'imgs/{c.name.replace("/", "")}.ppm', 'wb')
-            file.write(r.get(c.image_url).content)
-            file.close()
+        # print(c.name, c.image_url)
+        try:
+            if not os.path.exists(f'imgs/{c.name.replace("/", "")}.ppm'):
+                file = open(f'imgs/{c.name.replace("/", "")}.ppm', 'wb')
+                file.write(r.get(c.image_url).content)
+                file.close()
+        except requests.exceptions.MissingSchema:
+            missing.append(c.name)
 
     except IndexError:
         failed.append(item)
         con.print(f'[red]Card with attributes [/red]{item}[red] failed to load.[/red]')
 
-con.print('[white]100.0%')
+# print(missing)
+
 
 with open('failed.txt', 'w+') as f:
     f.write(str(failed))

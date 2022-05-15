@@ -439,6 +439,31 @@ Mountain;2020;383
 Mountain;2020;383
 Mountain;2020;383
 Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
 Swamp;2020;272
 Swamp;2020;272
 Swamp;2020;272
@@ -467,6 +492,13 @@ Forest;2020;278
 Forest;2020;278
 Forest;2020;278
 Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
 Island;2020;271
 Island;2020;271
 Island;2020;271
@@ -478,6 +510,12 @@ Island;2020;271
 Island;2020;271
 Island;2020;271
 Island;2020;271
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
 Plains;2018;251
 Plains;2018;251
 Plains;2018;251
@@ -669,6 +707,7 @@ Ogre Resister;2011;72
 Scrapyard Mongrel;2014;160
 Goblin Bangchuckers;2011;137
 Sarkhan's Rage;2015;153
+Sarkhan's Rage;2015;153
 Flameborn Hellion;2010;89
 Shock;2018;156
 Shock;2018;156
@@ -696,6 +735,7 @@ Galvanic Blast;2010;91
 Devour in Flames;2016;106
 Wild Slash;2015;118
 Wild Slash;2015;118
+Wild Slash;2015;118
 Goblin Freerunner;2016;111
 Thunderbreak Regent;2015;162
 Shivan Dragon;2018;300
@@ -718,6 +758,7 @@ Sure Strike;2018;118
 Gravitic Punch;2018;105
 Fire Elemental;2018;120
 Fire Elemental;2018;120
+Trumpet Blast;2018;165
 Trumpet Blast;2018;165
 Trumpet Blast;2018;165
 Frenzied Rage;2018;124
@@ -962,7 +1003,7 @@ Swathcutter Giant;2018;202
 Undercity Uprising;2018;210
 Legion Guildmage;2018;187
 Hypothesizzle;2018;178
-Aerial engineer;2018;211
+Aerial Engineer;2018;211
 Brawl-Bash Ogre;2018;213
 Draconic Disciple;2018;215
 Deafening Clarion;2018;165
@@ -1178,6 +1219,11 @@ Reiver Demon;2003;75
 Gnarled Scarhide;2014;72
 Nyx Infusion;2014;77
 Stitcher's Supplier;2018;121
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
 Island;2010;236
 Island;2010;236
 Island;2010;236
@@ -1634,3 +1680,2121 @@ Swamp;2018;194
 Swamp;2018;194
 Swamp;2018;194
 Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Tuktuk Rubblefort;2020;173
+Torch Courier;2018;119
+Hardened Berserker;2015;139
+Brazen Wolves;2016;122
+Chandra, Novice Pyromancer;2019;128
+Chandra, Novice Pyromancer;2019;128
+Inordinate Rage;2020;144
+Twin Bolt;2015;164
+Twin Bolt;2015;164
+Chandra's Embercat;2019;129
+Chandra's Embercat;2019;129
+Chandra's Regulator;2019;131
+Sizzling Barrage;2020;162
+Wild Slash;2015;118
+Dual Shot;2017;141
+Arc Lightning;2014;97
+Arc Lightning;2014;97
+Wind-Scarred Crag;2019;260
+Fires of Invention;2019;125
+Weaselback Redcap;2019;148
+Chandra, Acolyte of Flame;2019;126
+Sneaking Guid;2020;164
+Wind-Scarred Crag;2019;260
+Prophetic Ravings;2016;139
+Roil Eruption;2020;155
+Fiery Impulse;2015;145
+Flame Sweep;2019;139
+Ember Hauler;2019;137
+Stensia Innkeeper;2016;145
+Jaya's Greeting;2019;136
+Jaya's Greeting;2019;136
+Infuriate;2019;145
+Massive Raid;2013;100
+Steadfast Sentry;2019;40
+Mob Rule;2015;109
+Tormenting Voice;2020;172
+Tormenting Voice;2020;172
+Lightning Javelin;2015;153
+Skewer the Critics;2019;115
+Goblin Gathering;2019;104
+Shreds of Sanity;2016;141
+Act of Treason;2015;129
+Act of Treason;2015;129
+Bathe in Dragonfire;2015;92
+Dragon Fodder;2015;140
+Hijack;2017;148
+Spidersilk Net;2015;244
+Zephyr Charge;2019;82
+Epicure of Blood;2019;99
+Aerial Assault;2019;1
+Healer of the Glade;2019;176
+Sleep Paralysis;2019;075
+Boneclad Necromancer;2019;93
+Goblin Smuggler;2019;144
+Silverback Shaman;2019;195
+Lavakin Brawler;2019;147
+Cloudkin Seer;2019;54
+Befuddle;2019;47
+Barony Vampire;2019;85
+Soulmender;2019;37
+Anticipate;2019;45
+Moat Piranhas;2019;67
+Griffin Protector;2019;20
+Gift of Paradise;2019;173
+Keldon Raider;2019;146
+Bloodfell Caves;2019;242
+Tectonic Rift;2019;161
+Tectonic Rift;2019;161
+Battalion Foot Soldier;2019;7
+Blood Burglar;2019;88
+Moment of Heroism;2019;30
+Destructive Digger;2019;134
+Convolute;2019;55
+Murder;2019;109
+Stone Golem;2019;240
+Vorstclaw;2019;201
+Shock;2019;160
+Sorcerer of the Fang;2019;114
+Moorland Inquisitor;2019;31
+Feral Invocation;2019;170
+Unholy Indenture;2019;119
+Anvilwrought Raptor;2019;221
+Leafkin Druid;2019;178
+Reckless Air Strike;2019;154
+Gorging Vulture;2019;102
+Brightwood Tracker;2019;166
+Gravedigger;2019;103
+Aether Gust;2019;42
+Primal Cocoon;2010;191
+Devoted Crop-Mate;2017;10
+Duress;2019;97
+Duress;2019;97
+Squad Captain;2019;38
+Inspiring Captain;2019;25
+Temple of Epiphany;2019;253
+Voracious Hydra;2019;200
+Bag of Holding;2019;222
+Boreal Elemental;2019;49
+Frost Lynx;2019;62
+Scorch Spitter;2019;159
+Octoprophet;2019;70
+Impetuous Devils;2016;132
+Prickleboar;2015;158
+Fiery Hellhound;2015;284
+Sure Strike;2018;118
+Shock;2019;160
+Chandra's Embercat;2019;129
+Clamor Shaman;2019;96
+Heart-Piercer Bow;2019;228
+Heart-Piercer Bow;2019;228
+Ripscale Predator;2019;157
+Fortress Crab;2019;60
+Centaur Courser;2019;168
+Cloudkin Seer;2019;54
+Wolfkin Bond;2019;203
+Salvager of Ruin;2019;237
+Blightbeetle;2019;87
+Barkhide Troll;2019;165
+Icon of Ancestry;2019;229
+Epicure of Bloo;2019;99
+Infuriate;2019;145
+Silverback Shaman;2019;195
+Reduce to Ashes;2019;155
+Faerie Miscreant;2019;58
+Agonizing Syphon;2019;83
+Skyknight Vanguard;2019;218
+Fry;2019;140
+Air Elemental;2019;44
+Bishop of Wings;2019;8
+Sanitarium Skeleton;2019;112
+Yoked Ox;2019;41
+Zephyr Charge;2019;82
+Blossoming Sands;2019;243
+Hanged Executioner;2019;22
+Soul Salvage;2019;116
+Raise the Alarm;2019;34
+Brightwood Tracker;2019;166
+Daggersail Aeronaut;2019;133
+Octoprophet;2019;70
+Infuriate;2019;145
+Pacifism;2019;32
+Growth Cycle;2019;175
+Gauntlets of Light;2019;17
+Gauntlets of Light;2019;17
+Scuttlemutt;2019;238
+Empyrean Eagle;2019;208
+Glint-Horn Buccaneer;2019;141
+Act of Treason;2019;124
+Audacious Thief;2019;84
+Goblin Bird-Grabber;2019;142
+Winged Words;2019;80
+Natural End;2019;183
+Daggersail Aeronaut;2019;133
+Diamond Knight;2019;224
+Eternal Isolation;2019;15
+Portal of Sanctuary;2019;71
+Rapacious Dragon;2019;153
+Empyrean Eagle;2019;208
+Wolfrider's Saddle;2019;204
+Herald of the Sun;2019;023
+Bloodthirsty Aerialist;2019;91
+Scuttlemutt;2019;238
+Loaming Shaman;2019;180
+Eternal Isolation;2019;15
+Diamond Knight;2019;224
+Mystic Forge;2019;233
+Ruin Rat;2017;75
+Run Amok;2018;140
+Voltaic Servant;2018;236
+Rallying Roar;2017;30
+Root Snare;2018;199
+Electrify;2018;139
+Proven Combatant;2017;42
+Trumpet Blast;2018;165
+Recover;2018;84
+Shatter;2018;114
+Snapping Drake;2018;75
+Ravenous Chupacabra;2018;82
+Bombard;2018;93
+Exclusion Mage;2018;55
+Gruesome Fate;2018;75
+Typhoid Rats;2015;89
+Magma Spray;2017;141
+Dark Inquiry;2018;65
+Future Sight;2014;33
+Thought Scour;2014;21
+Body Double;2014;15
+Aven Surveyor;2015;31
+Summoner's Bane;2014;31
+Dispel;2012;36
+Rupture Spire;2018;255
+King Macar, the Gold-Cursed;2014;74
+Goblin Motivator;2018;143
+Brawl-Bash Ogre;2018;213
+Jace's Ingenuity;2014;32
+Ice Cage;2011;57
+Goblin Trailblazer;2018;105
+Moment of Craving;2018;79
+Lightning Strike;2018;152
+Hired Blade;2018;100
+Cruel Feeding;2014;64
+Vampire Sovereign;2018;125
+Painful Lesson;2017;102
+Dark-Dweller Oracle;2018;134
+Goblin Instigator;2018;142
+Sure Strike;2018;161
+Electrify;2018;139
+Roast;2015;151
+Crash Through;2018;133
+Scroll Thief;2010;72
+Etali, Primal Storm;2018;100
+Gravedigger;2017;93
+Plague Mare;2018;114
+Epicure of Blood;2018;95
+Reliquary Tower;2018;254
+Apex of Power;2018;129
+Impale;2018;76
+Mist-Cloaked Herald;2018;43
+Ruinous Path;2015;123
+Sift;2018;72
+Dragon Egg;2018;138
+Blazing Volley;2017;119
+Raptor Companion;2017;31
+Snapping Drake;2018;75
+Vampire Sovereign;2018;125
+Fight with Fire;2018;119
+Doublecast;2018;137
+Sadistic Skymarcher;2018;85
+Rile;2017;158
+Gilded Cerodon;2017;94
+Infernal Scarring;2018;103
+Gideon's Reproach;2018;19
+Dutiful Servants;2017;12
+Commune with Dinosaurs;2017;181
+Blessing of Belzenlok;2018;77
+Seekers' Squire;2017;121
+Mighty Leap;2018;28
+Kumena's Speaker;2017;196
+Survivors' Bond;2020;172
+Thwart the Enemy;2020;173
+Flycatcher Giraffid;2020;153
+Triumphant Surge;2020;41
+Venomous Hierophant;2020;122
+Blight-Breath Catoblepas;2020;86
+Chain to Memory;2020;46
+Moss Viper;2020;179
+Thirst for Meaning;2020;74
+Fae of Wishes;2019;44
+Raging Redcap;2019;134
+Memory Theft;2019;96
+Fell the Pheasant;2019;153
+Omen of the Dead;2020;110
+Lash of Thorns;2019;92
+Lonesome Unicorn;2019;21
+Didn't Say Please;2019;42
+Rimrock Knight;2019;137
+Return to Nature;2019;173
+Return to Nature;2019;173
+Heraldic Banner;2019;222
+Beanstalk Giant;2019;295
+Merfolk Secretkeeper;2019;53
+Enchanted Carriage;2019;218
+Skophos Warleader;2020;154
+Experimental Overload;2020;218
+Fungal Rebirth;2020;182
+Seasoned Hallowblade;2020;34
+Chandra's Magmutt;2020;303
+Grasp of Darkness;2020;102
+Silent Dart;2020;237
+Garruk's Gorehorn;2020;184
+Walking Corpse;2020;128
+Pridemalkin;2020;196
+Revitalize;2020;31
+Thrill of Possibility;2020;165
+Cancel;2020;46
+Valorous Steed;2020;42
+Scorching Dragonfire;2019;139
+Hypnotic Sprite;2019;49
+Deafening Silence;2019;10
+Joust;2019;129
+Irencrag Feat;2019;127
+Staggering Insight;2020;228
+Tymaret Calls the Dead;2020;118
+Henge Walker;2019;221
+Reave Soul;2019;103
+Portent of Betrayal;2020;149
+Beloved Princess;2019;7
+Shimmerwing Chimera;2020;64
+Altar of the Pantheon;2020;231
+Vantress Paladin;2019;72
+Sage of Mysteries;2020;62
+Weapon Rack;2019;236
+Goblin Heelcutter;2015;102
+Mage-Ring Bully;2015;154
+Giant's Skewer;2019;91
+Mardu Scout;2015;108
+Mardu Scout;2015;108
+Hungering Yeti;2015;105
+Ember Beast;2013;89
+Valley Dasher;2014;125
+Dragonlord's Servant;2015;138
+Bellows Lizard;2015;132
+Fire Elemental;2019;138
+Ram Through;2020;170
+Fertilid;2020;152
+Migration Path;2020;164
+Fully Grown;2020;154
+Greater Sandwurm;2020;157
+Excavation Mole;2020;150
+Excavation Mole;2020;150
+Exuberant Wolfbear;2020;151
+Wilt;2020;176
+Bristling Boar;2020;146
+Humble Naturalist;2020;160
+Titanoth Rex;2020;174
+Charge of the Forever-Beast;2020;147
+Lonesome Unicorn;2019;21
+Redcap Raiders;2019;136
+Witching Well;2019;74
+Seven Dwarves;2019;141
+Jukai Naturalist;2022;225
+Invigorating Hot Spring;2022;223
+Risona, Asari Commander;2022;233
+Scoured Barrens;2022;274
+Automated Artificer;2022;239
+Anchor to Reality;2022;45
+Thundersteel Colossus;2022;261
+Guardians of Oboro;2022;56
+Mobilizer Mech;2022;65
+Futurist Sentinel;2022;54
+Suit Up;2022;81
+Patchwork Automaton;2022;254
+Moonfolk Puzzlemaker;2022;68
+Mnemonic Sphere;2022;64
+Saiba Trespassers;2022;77
+Network Disruptor;2022;71
+Covert Technician;2022;49
+Armguard Familiar;2022;46
+Tamiyo's Compleation;2022;83
+Futurist Operative;2022;53
+Disruption Protocol;2022;51
+Short Circuit;2022;78
+Go-Shintai of Lost Wisdom;2022;55
+Prosperous Thief;2022;73
+Moonfolk Puzzlemaker;2022;68
+Disruption Protocol;2022;51
+Mobilizer Mech;2022;65
+Moonsnare Prototype;2022;69
+Mirrorshell Crab;2022;63
+Acquisition Octopus;2022;44
+Mnemonic Sphere;2022;64
+Searchlight Companion;2022;258
+Covert Technician;2022;49
+Papercraft Decoy;2022;253
+Skyswimmer Koi;2022;79
+Prosperous Thief;2022;73
+Mindlink Mech;2022;62
+Explosive Entry;2022;139
+Tales of Master Seshiro;2022;210
+Favor of Jukai;2022;184
+Sky-Blessed Samurai;2022;37
+Blossom Prancer;2022;175
+Mirror Box;2022;250
+Tatsunari, Toad Rider;2022;123
+Kami of Restless Shadows;2022;104
+Lethal Exploit;2022;107
+Scrapyard Steelbreaker;2022;160
+Chainflail Centipede;2022;90
+Season of Renewal;2022;205
+Kami of Restless Shadows;2022;104
+Life of Toshiro Umezawa;2022;108
+Assassin's Ink;2022;87
+Kotos, the Silent Spider;2022;228
+Grafted Growth;2022;188
+Scrapyard Steelbreaker;2022;160
+Chainflail Centipede;2022;90
+Season of Renewal;2022;205
+Coiling Stalker;2022;179
+Gift of Wrath;2022;143
+Enthusiastic Mechanaut;2022;218
+Reinforced Ronin;2022;158
+Hinata, Dawn-Crowned;2022;222
+Scoured Barrens;2022;274
+Harmonious Emergence;2022;190
+Experimental Synthesizer;2022;138
+Undercity Scrounger;2022;126
+Jukai Trainee;2022;196
+The Shattered States Era;2022;162
+Leech Gauntlet;2022;106
+Asari Captain;2022;327
+March of burgeoning Life;2022;201
+Thornwood Falls;2022;279
+Unstoppable Ogre;2022;169
+Debt to the Kami;2022;92
+Master's Rebuke;2022;202
+Nezumi Bladeblesser;2022;115
+Heir of the Ancient Fang;2022;325
+Stormtide Leviathan;2010;74
+Wandering Wolf;2018;216
+Charging Binox;2018;66
+Grazing Whiptail;2017;190
+Pulse of Murasa;2018;209
+Impassioned Orator;2019;12
+Quench;2019;48
+Gift of Strength;2019;127
+Bloom Hulk;2019;154
+Shock;2019;160
+Shock;2019;160
+Sage of Ancient Lore;2016;225
+Stampeding Rhino;2011;196
+Quilled Slagwurm;2011;89
+Serene Remembrance;2013;132
+Hungering Hydra;2018;189
+Plummet;2018;143
+Hardy Veteran;2018;132
+Knight of the Stampede;2018;138
+Orazca Frillback;2018;140
+Overgrown Armasaur;2018;141
+Hunt the Weak;2018;133
+Hunt the Weak;2018;133
+Hardy Veteran;2018;132
+Colossal Dreadmaw;2018;125
+Colossal Dreadmaw;2018;125
+Cacophodon;2018;123
+Defiant Greatmaw;2017;163
+Giant Spider;2017;166
+Renegade Krasis;2013;47
+Thornhide Wolves;2018;204
+Giltgrove Stalker;2018;131
+Brindle Boar;2011;167
+Brindle Boar;2011;167
+Reclaim;2011;191
+Overgrown Battlement;2010;203
+Overgrown Battlement;2010;203
+Gnaw to the Bone;2011;183
+Tangle Mantis;2011;91
+Stampeding Rhino;2011;196
+Gift of Strength;2017;117
+Beneath the Sands;2017;111
+Living Totem;2014;184
+Aura Gnarlid;2011;175
+Aura Gnarlid;2011;175
+Quilled Wolf;2016;222
+Crawling Sensation;2016;199
+Saddleback Lagac;2016;142
+Byway Courier;2016;196
+Garruk's Packleader;2010;177
+Garruk's Packleader;2010;177
+Root Snare;2018;199
+Earthen Arms;2015;172
+Aggressive Mammoth;2018;302
+Pulse of Murasa;2016;141
+Bonds of Mortality;2016;128
+Gorm the Great;2018;8
+Heir of the Wilds;2014;134
+Heir of the Wilds;2014;134
+Heir of the Wilds;2014;134
+Golden Hind;2014;124
+Golden Hind;2014;124
+Sacred Wolf;2010;196
+Sacred Wolf;2010;196
+Woodland Sleuth;2011;210
+Frontier Guide;2009;161
+Giant Spider;2011;177
+Alpha Tyrranax;2010;109
+Ondu Giant;2010;202
+Reclamation Sage;2014;194
+Cudgel Troll;2010;167
+Ironshell Beetle;2018;134
+Vigorspore Wurm;2018;147
+Beast Within;2018;190
+Charging Rhino;2018;192
+Bristling Boar;2018;170
+Siege Wurm;2018;144
+Combo Attack;2018;67
+Kraul Warrior;2018;204
+Colossal Dreadmaw;2017;180
+Thrashing Brontodon;2018;148
+Llanowar Elves;2018;168
+Llanowar Elves;2018;168
+Llanowar Elves;2018;168
+Pause for Reflection;2018;140
+Pause for Reflection;2018;140
+Talons of Wildwood;2018;202
+Talons of Wildwood;2018;202
+Rabid Bite;2018;195
+Plummet;2018;193
+Naturalize;2018;190
+Elvish Rejuvenator;2018;180
+Adventurous Impulse;2018;153
+Druid of Horns;2018;176
+Declare Dominance;2018;175
+Colossal Majesty;2018;173
+Colossal Dreadmaw;2017;180
+Blanchwood Armor;2018;169
+Jungle Delver;2017;195
+Spiked Baloth;2012;192
+Timberpack Wolf;2012;194
+Golgari Raiders;2018;130
+Centaur Courser;2012;164
+Vastwood Gorger;2012;196
+Urban Utopia;2018;146
+Titanic Growth;2018;205
+Titanic Growth;2018;205
+Oakenform;2018;191
+Golgari Raiders;2018;130
+Vigorspore Wurm;2018;147
+Krosan Druid;2018;167
+Saproling Migration;2018;178
+Druid of the Cowl;2018;177
+Enter the Unknown;2018;128
+Baloth Gorger;2018;156
+Boon Satyr;2013;152
+Lure;2011;183
+Viridian Emissary;2011;95
+Bond Beetle;2012;161
+Arbor Elf;2012;160
+Living Wish;2018;179
+Spore Swarm;2018;180
+Saproling Migration;2018;178
+Baloth Gorger;2018;156
+Druid of the Cowl;2018;177
+Gaea's Protector;20118;162
+Llanowar Envoy;2018;169
+Llanowar Envoy;2018;169
+Daggerback Basilisk;2018;174
+Izzet Guildgate;2018;252
+Izzet Guildgate;2018;252
+Izzet Guildgate;2018;252
+Izzet Guildgate;2018;252
+Precision Bolt;2018;267
+Precision Bolt;2018;267
+Precision Bolt;2018;267
+Precision Bolt;2018;267
+Fearless Halberdier;2018;100
+Fearless Halberdier;2018;100
+Fearless Halberdier;2018;100
+Goblin Electromancer;2018;174
+Goblin Electromancer;2018;174
+Muse Drake;2018;46
+Wee Dragonauts;2018;214
+Wee Dragonauts;2018;214
+Hellkite Whelp;2018;106
+Hellkite Whelp;2018;106
+Erratic Cyclops;2018;98
+Ral's Staticaster;2018;268
+Ral's Staticaster;2018;268
+Ral's Staticaster;2018;268
+Passwall Adept;2018;50
+Ral's Dispersal;2018;266
+Ral's Dispersal;2018;266
+Ral, Izzet Viceroy;2018;195
+Ral, Caller of Storms;2018;265
+Fire Urchin;2018;101
+Fire Urchin;2018;101
+Weaselback Redcap;2019;148
+Direct Current;2018;96
+Leapfrog;2018;42
+Vedalken Mesmerist;2018;57
+Command the Storm;2018;94
+Command the Storm;2018;94
+Sonic Assault;2018;199
+Rubblebelt Boar;2018;114
+Omnispell Adept;2018;49
+Flesh to Dust;2015;280
+Reave Soul;2015;115
+Deadbridge Shaman;2015;91
+Debilitating Injury;2014;68
+Hooded Assassin;2015;73
+Typhoid Rats;2015;89
+Flatten;2015;100
+Hand of Silumgar;2015;105
+Scapeshift;2018;201
+Field Creeper;2018;234
+Pegasus Courser;2018;32
+Invoke the Divine;2018;16
+Chartooth Cougar;2018;125
+Skeletonize;2018;149
+Fathom Seer;2018;56
+Shadowmage Infiltrator;2018;217
+Twisted Image;2018;75
+Brine Elemental;2018;47
+Living Death;2018;96
+Naturalize;2018;190
+Banefire;2018;130
+Brawl-Bash Ogre;2018;213
+Dryad Greenseeker;2018;178
+Blanchwood Armor;2018;169
+Crash Through;2018;133
+Centaur Courser;2018;171
+Star-Crowned Stag;2018;38
+Aven Wind Mage;2018;45
+Two-Headed Zombie;2018;123
+Plummet;2018;193
+Revitalize;2018;35
+Sure Strike;2018;161
+Reliquary Tower;2012;227
+Fountain of Renewal;2018;235
+Navigator's Compass;2018;225
+Manalith;2018;239
+Manalith;2018;239
+Manalith;2018;239
+Virtus the Veiled;2018;7
+Stolen Strategy;2018;64
+Amulet of Safekeeping;2018;226
+Foul Orchard;2018;251
+Soulbright Flamekin;2018;151
+Loyal Sentry;2018;22
+Vampire Lacerator;2018;114
+Draconic Disciple;2018;215
+Switcheroo;2018;78
+Ghirapur Guide;2018;182
+Shock;2018;156
+Cavalry Drillmaster;2018;8
+Marauder's Axe;2018;240
+Colossal Dreadmaw;2018;172
+Bone to Ash;2018;47
+Hieromancer's Cage;2018;14
+Heroic Reinforcements;2018;217
+Rhox Oracle;2018;198
+Doomed Dissenter;2018;93
+Rustwing Falcon;2018;36
+Catalyst Elemental;2018;132
+Uncomfortable Chill;2018;82
+Revitalize;2018;35
+Yotian Soldier;2018;249
+Charging Binox;2018;66
+Spellweaver Duo;2018;42
+Charging Rhino;2018;192
+Jungle Wayfinder;2018;72
+Pathmaker Initiate;2018;182
+Watercourser;2018;137
+Rebuke;2018;103
+Eyeblight Assassin;2018;143
+Royal Trooper;2018;104
+Opportunity;2018;126
+Chakram Slinger;2018;16
+Chakram Retriever;2018;15
+Colossal Dreadmaw;2018;163
+Disfigure;2018;87
+Fathom Seer;2018;56
+Geist of the Moors;2018;15
+Balduvian Horde;2018;120
+Evolving Wilds;2018;186
+Evolving Wilds;2018;186
+Evolving Wilds;2018;186
+Evolving Wilds;2018;186
+Disdainful Stroke;2014;37
+Quench;2019;48
+Abnormal Endurance;2018;85
+Plummet;2018;143
+Duress;2017;105
+Goblin Instigator;2018;142
+Divination;2018;52
+Oreskos Swiftclaw;2014;22
+Meandering River;2018;253
+Dark-Dweller Oracle;2018;134
+Aerial Engineer;2018;211
+Reassembling Skeleton;2018;116
+Doublecast;2018;137
+Druid of the Cowl;2018;177
+Gearsmith Guardian;2018;237
+Snapping Drake;2018;75
+Walking Corpse;2018;126
+Electrify;2018;139
+Highland Game;2018;188
+Hired Blade;2018;100
+Cancel;2017;47
+Mighty Leap;2018;28
+Onakke Ogre;2018;153
+Stitcher's Supplier;2018;121
+Sigiled Sword of Valeron;2018;244
+Surge Mare;2018;77
+Rupture Spire;2018;255
+Wall of Vines;2018;210
+Sparktongue Dragon;2018;159
+Cavalry Drillmaster;2018;8
+Explosive Apparatus;2018;233
+Bristling Boar;2020;146
+Epicure of Blood;2018;95
+Tormenting Voice;2018;164
+Scholar of Stars;2018;71
+Daybreak Chaplain;2018;10
+Goblin Motivator;2018;143
+Highland Lake;2018;252
+Transmogrifying Wand;2018;247
+Guttersnipe;2018;145
+Departed Deckhand;2018;49
+Thud;2018;163
+Skyscanner;2018;245
+Druid of the Cowl;2018;177
+Smelt;2018;158
+Pegasus Courser;2018;32
+Thornhide Wolves;2018;204
+Giant Spider;2017;166
+Duress;2017;105
+Tolarian Scholar;2018;80
+Knight of the Tusk;2018;18
+Hostile Minotaur;2018;147
+Plummet;2018;143
+Vorstclaw;2019;201
+Daybreak Chaplain;2018;10
+Dazzling Lights;2018;34
+Healer's Hawk;2018;14
+Maximize Velocity;2018;111
+Scuttlemutt;2019;238
+Empyrean Eagle;2019;208
+Tomebound Lich;2019;219
+Ogre Siegebreaker;2019;215
+Creeping Trailblazer;2019;207
+Ironroot Warlord;2019;209
+Law-Rune Enforcer;2019;20
+Raise the Alarm;2019;34
+Raise the Alarm;2019;34
+Pacifism;2010;23
+Pacifism;2010;23
+Radical Idea;2018;52
+Worldsoul Colossus;2018;215
+Truefire Captain;208;209
+Gravitic Punch;2018;105
+Prey Upon;2018;143
+Hypothesizzle;2018;178
+Sumala Woodshaper;2018;200
+Artful Takedown;2018;151
+Bartizan Bats;2018;62
+Generous Stray;2018;129
+Serra's Guardian;2018;284
+Riddlemaster Sphinx;2018;287
+Gravewaker;2018;293
+Shivan Dragon;2018;300
+Aggressive Mammoth;2018;302
+Tomik, Distinguished Advokist;2019;34
+The Wanderer;2019;37
+Mowu, Loyal Companion;2019;167
+Mayhem Devil;2019;204
+Burning Prophet;2019;117
+Aven Eternal;2019;42
+Charmed Stray;2019;8
+Bloom Hulk;2019;154
+Saheeli's Silverwing;2019;243
+Kronch Wrangler;2019;166
+Lazotep Behemoth;2019;95
+Stealth Mission;2019;70
+Pouncing Lynx;2019;25
+Turret Ogre;2019;148
+Impassioned Orator;2019;12
+Impassioned Orator;2019;12
+Boggart Brute;2018;131
+Daybreak Chaplain;2018;10
+Maniacal Rage;2019;149
+Soul Salvage;2019;116
+Raise the Alarm;2019;34
+Bone to Ash;2018;47
+Griffin Sentinel;2019;21
+Growth Cycle;2019;175
+Sage's Row Denizen;2019;73
+Vampire of the Dire Moon;2019;120
+Loaming Shaman;2019;180
+Brought Back;2019;9
+Swiftwater Cliffs;2015;172
+Prismite;2019;235
+Inspiring Captain;2019;25
+Squad Captain;2019;38
+Sanitarium Skeleton;2019;112
+Yoked Ox;2013;37
+Pack Mastiff;2019;152
+Negate;2020;71
+Agonizing Syphon;2019;83
+Sage's Row Denizen;2019;73
+Mammoth Spider;2019;181
+Goblin Bird-Grabber;2019;142
+Gravedigger;2018;98
+Aether Gust;2019;42
+Flame Sweep;2019;139
+Nightpack Ambusher;2019;185
+Dismal Backwater;2019;245
+Chandra's Outrage;2019;130
+Smelt-Ward Ignus;2019;116
+Moraug, Fury of Akoum;2020;150
+Teeterpeak Ambusher;2020;169
+Spitfire Lagac;2020;167
+Shatterskull Charger;2020;159
+Pyroclastic Hellion;2020;152
+Rosethorn Acolyte;2019;174
+Piper of the Swarm;2019;100
+Frogify;2019;47
+Burning-Yard Trainer;2019;117
+Wintermoor Commander;2019;205
+Merfolk Secretkeeper;2019;53
+Signpost Scarecrow;2019;231
+Steelgaze Griffin;2019;65
+Tempting Witch;2019;108
+Fell the Pheasant;2019;153
+Faerie Guidemother;2019;11
+Weaselback Redcap;2019;148
+Mistford River Turtle;2019;56
+Arrester's Zeal;2019;4
+Rubblebelt Recluse;2019;111
+Prison Realm;2019;26
+Cry of the Carnarium;2019;70
+Bleeding Edge;2019;78
+Plaguecrafter;2018;82
+Scampering Scorcher;2019;158
+Memory Theft;2019;96
+Castle Vantress;2019;242
+Faerie Vandal;2019;45
+Consecrate;2019;224
+Repudiate;2019;227
+Wolfkin Bond;2016;178
+Thraben Foulbloods;2016;108
+Drag Under;2016;57
+Waxing Moon;2016;177
+Manalith;2018;239
+Stalking Drone;2019;124
+Ironclad Slayer;2016;31
+Titan's Presence;2015;14
+Cryptic Caves;2019;244
+Frilled Sea Serpent;2019;61
+Wishcoin Crab;2018;60
+Gruul Guildgate;2019;249
+Verity Circle;2019;58
+Syndicate Guildmage;2019;211
+Swirling Torrent;2019;56
+Blade Juggler;2019;63
+Rakdos Locket;2019;237
+Rampaging Rendhorn;2019;135
+Axebane Beast;2019;121
+Dead Revels;2019;71
+Plague Wight;2019;82
+Disciple of the Old Ways;2013;118
+Basilica Screecher;2013;58
+Orzhov Guildgate;2019;253
+Smelt-Ward Ignus;2019;116
+Gatebreaker Ram;2019;126
+Inquisitive Puppet;2019;223
+Grumgully, the Generous;2019;192
+Sorcerer's Broom;2019;232
+Mask of Immolation;2019;151
+Open the Gates;2019;133
+Return to Nature;2019;173
+Thicket Crasher;2019;196
+Sorin's Thirst;2019;104
+Rugged Highlands;2019;250
+Blossoming Sands;2019;243
+Blossoming Sands;2019;243
+Scoured Barrens;2022;274
+Scoured Barrens;2022;274
+Swiftwater Cliffs;2015;172
+Azorius Guildgate;2012;237
+End-Raze Forerunners;2019;124
+Swirling Torrent;2019;56
+Rakdos Firewheeler;2019;197
+Lawmage's Binding;2019;190
+Rubble Slinger;2019;217
+Humongulus;2019;41
+Tranquil Cove;2019;259
+Cryptic Caves;2019;244
+Veil of Summer;2019;198
+Noxious Grasp;2019;110
+Greenwood Sentinel;2019;174
+Sleep Paralysis;2019;75
+Blade Juggler;2019;63
+Justiciar's Portal;2019;13
+Undercity's Embrace;2019;89
+Merchant of the Vale;2019;131
+Garenbrig Paladin;2019;157
+Foreboding Fruit;2019;88
+Redcap Raiders;2019;136
+Ride Down;2016;188
+Malevolent Noble;2019;95
+Fortune's Favor;2016;61
+Memory Theft;2019;96
+Insatiable Appetite;2019;162
+Lonesome Unicorn;2019;21
+Raging Redcap;2019;134
+Mantle of Tides;2019;52
+Beloved Princess;2019;7
+Run Away Together;2019;62
+Ritual of Rejuvenation;2017;32
+Blossom Dryad;2017;178
+Storm Sculptor;2017;85
+Mark of the Vampire;2017;113
+Slash of Talons;2017;38
+Skittering Heartstopper;2017;122
+Scalding Cauldron;2019;229
+Selesnya Guildgate;2018;255
+Unexplained Disappearance;2018;56
+Slimebind;2019;54
+Fortifying Provisions;2019;13
+Overgrowth Elemental;2019;187
+Bond of Flourishing;2019;155
+Brineborn Cutthroat;2019;50
+Spectral Sailor;2019;76
+Warden of Evos Isle;2019;79
+Air Elemental;2019;44
+Chemister's Insight;2018;32
+Gravedigger;2018;98
+Overcome;2019;186
+Woodland Champion;2019;205
+Paradise Druid;2019;171
+Boon of Emrakul;2016;81
+Choking Restraints;2016;16
+Vorstclaw;2019;201
+Healer's Hawk;2018;14
+Duress;2017;105
+Disfigure;2018;87
+Feral Prowler;2017;115
+Cowl Prowler;2018;193
+Grizzled Outcasts;2011;185
+Magma Pummeler;2021;169
+Pyre Spawn;2021;173
+Lightning Wolf;2021;168
+Runebound Wolf;2021;176
+Hungry Ridgewolf;2021;161
+Sure Strike;2017;166
+Belligerent Guest;2021;144
+Falkenrath Celebrants;2021;156
+Falkenrath Celebrants;2021;156
+Honeymoon Hearse;2021;160
+End the Festivities;2021;155
+Voldaren epicure;2021;182
+Voldaren epicure;2021;182
+Vampires' Vengeance;2021;180
+Belligerent Guest;2021;144
+Blood Hypnotist;2021;145
+Blood Petal Celebrant;2021;146
+Sanguine Statuette;2021;177
+Bloody Betrayal;2021;147
+Dominating Vampire;2021;305
+Skywarp Skaab;2021;78
+Gutter Skulker;2021;62
+Hungry Ridgewolf;2021;161
+Dreamshackle Geist;2021;58
+Twinblade Geist;2021;40
+Massive Might;2021;208
+Sheltering Boughs;2021;218
+Gluttonous Guest;2021;292
+Bleed Dry;2021;94
+Gift of Fangs;2021;113
+Grisly Ritual;2021;116
+Pointed Discussion;2021;126
+Thirst for Discovery;2021;85
+Into the Night;2021;163
+Wanderlight Spirit;2021;86
+Syncopate;2018;67
+Bloodcrazed Socialite;2021;96
+Hookhand Mariner;2021;203
+Magma Pummeler;2021;169
+Angelic Quartermaster;2021;2
+Hopeful Initiate;2021;20
+Anje, Maid of Dishonor;2021;309
+Circle of Confinement;2021;7
+Blood Fountain;2021;95
+Bloodfell Caves;2014;229
+Bloodfell Caves;2014;229
+Blossoming Sands;2019;243
+Blossoming Sands;2019;243
+Dismal Backwater;2019;245
+Dismal Backwater;2019;245
+Jungle Hollow;2014;235
+Jungle Hollow;2014;235
+Rugged Highlands;2019;250
+Rugged Highlands;2019;250
+Scoured Barrens;2022;274
+Scoured Barrens;2022;274
+Swiftwater Cliffs;2015;172
+Swiftwater Cliffs;2015;172
+Thornwood Falls;2022;279
+Thornwood Falls;2022;279
+Tranquil Cove;2019;259
+Tranquil Cove;2019;259
+Wind-Scarred Crag;2019;260
+Wind-Scarred Crag;2019;260
+Virus Beetle;2022;128
+Greater Tanuki;2022;189
+Saiba Trespassers;2022;77
+Mothrider Patrol;2022;30
+Towashi Songshaper;2022;167
+Moon-Circuit Hacker;2022;67
+Peerless Samurai;2022;156
+Automated Artificer;2022;239
+Explosive Entry;2022;139
+The Modern Age;2022;66
+Gloomshrieker;2022;219
+Roaring Earth;2022;204
+Bronze Cudgels;2022;240
+Ao, the Dawn Sky;2022;2
+Secrets of the Key;2021;73
+Otherworldly Gaze;2021;67
+Organ Hoarder;2021;66
+Faithful Mending;2021;221
+Shipwreck Sifters;2021;74
+Consider;2021;44
+Stormrider Spirit;2021;79
+Geistwave;2021;56
+Dissipate;2021;49
+Devious Cover-Up;2021;48
+Shipwreck Sifters;2021;74
+Shipwreck Sifters;2021;74
+Consider;2021;44
+Stormrider Spirit;2021;79
+Geistwave;2021;56
+Dissipate;2021;49
+Devious Cover-Up;2021;48
+Shipwreck Sifters;2021;74
+Nebelgast Intruder;2021;64
+Locked in the Cemetery;2021;60
+Startle;2021;78
+Devious Cover-Up;2021;48
+Faithful Mending;2021;221
+Component Collector;2021;43
+Unblinking Observer;2021;82
+Arcane Infusion;2021;210
+Organ Hoarder;2021;66
+Otherworldly Gaze;2021;67
+Phantom Carriage;2021;70
+Shipwreck Sifters;2021;74
+Stormrider Spirit;2021;79
+Nebelgast Intruder;2021;64
+Consider;2021;44
+Memory Deluge;2021;62
+Hungry Ridgewolf;2021;161
+Abrade;2021;139
+Into the Night;2021;163
+Hungry Ridgewolf;2021;161
+Lightning Wolf;2021;168
+Sure Strike;2017;166
+Reckless Impulse;2021;174
+Frenzied Devils;2021;159
+Blood Petal Celebrant;2021;146
+Honeymoon Hearse;2021;160
+Abrade;2021;139
+End the Festivities;2021;155
+Frenzied Devils;2021;159
+Kessig Flamebreather;2021;164
+Flame-Blessed Bolt;2021;158
+Uncharted Haven;2022;281
+Reckoner's Bargain;2022;120
+Bearer of Memory;2022;174
+Moonsnare Prototype;2022;69
+Imperial Oath;2022;17
+Ambitious Assault;2022;133
+Imperial Subduer;2022;310
+Moon-Circuit Hacker;2022;67
+Peerless Samurai;2022;156
+The Long Reach of Night;2022;109
+Prosperous Thief;2022;73
+Blossom Prancer;2022;175
+Runaway Trash-Bot;2022;257
+Risona, Asari Commander;2022;233
+Thornwood Falls;2022;279
+Silvercoat Lion;2010;31
+Wasteland Viper;2013;139
+Ripscale Predator;2013;103
+Dinrova Horror;2018;220
+Wildwood Rebirth;2012;140
+Gruul Guildgate;2019;249
+Spell Rupture;2013;52
+Wojek Halberdiers;2013;208
+Bioshift;2013;214
+Dutiful Servants;2017;12
+Rise from the Grave;2018;117
+Spreading Flames;2016;143
+Laboratory Brute;2016;67
+Mercurial Geists;2016;186
+Spectral Reserves;2016;43
+Field Creeper;2018;234
+Wailing Ghoul;2016;112
+Crossroads Consecrator;2016;154
+Springsage Ritual;2016;172
+Diamond Knight;2019;224
+Pattern Matcher;2019;234
+Audacious Thief;2019;84
+Lazotep Reaver;2019;96
+Lazotep Reaver;2019;96
+Murder;2018;110
+Murder;2018;110
+Swiftwater Cliffs;2015;172
+Jungle Hollow;2014;235
+Jungle Hollow;2014;235
+Sephara, Sky's Blade;2019;36
+Drown in the Loch;2019;188
+Tournament Grounds;2019;248
+Knight of the Keep;2019;19
+Unexplained Vision;2019;70
+Mystic Sanctuary;2019;247
+Outmuscle;2019;170
+Bloodthirsty Aerialist;2019;91
+Barony Vampire;2019;85
+Expose to Daylight;2019;8
+Growth Spiral;2019;178
+Ajani's Pridemate;2019;4
+Herald of the Sun;2019;023
+Angel of Vitality;2019;4
+Haazda Marshal;2018;13
+Windstorm Drake;2019;60
+Leafkin Druid;2019;178
+Silverback Shaman;2019;195
+Silverback Shaman;2019;195
+Gift of Paradise;2019;173
+Gift of Paradise;2019;173
+Thornwood Falls;2022;279
+Tranquil Cove;2019;259
+Tranquil Cove;2019;259
+Sage's Row Savant;2019;49
+Savage Stomp;2017;205
+Colossal Dreadmaw;2018;125
+Cancel;2017;47
+Narcomoeba;2018;47
+Pilfering Imp;2018;81
+Hellkite Whelp;2018;106
+Undercity Necrolisk;2018;87
+Direct Current;2018;96
+Selesnya Locket;2018;240
+Watcher in the Mist;2018;59
+Pause for Reflection;2018;140
+Veiled Shade;2018;88
+Wary Okapi;2018;149
+Righteous Blow;2018;23
+Brineborn Cutthroat;2019;50
+Stone Golem;2019;240
+Growth Cycle;2019;175
+Gorging Vulture;2019;102
+Yoked Ox;2013;37
+Wolfkin Bond;2019;203
+Duress;2017;105
+Blood Burglar;2019;88
+Moment of Heroism;2019;30
+Soulmender;2019;37
+Selesnya Guildgate;2018;255
+Vivid Revival;2018;148
+Plaguecrafter;2018;82
+Savage Smash;2019;203
+Vizkopa Vampire;2019;220
+Bladebrand;2019;64
+Titanic Brawl;2019;146
+Dismal Backwater;2019;245
+Dismal Backwater;2019;245
+Bloodfell Caves;2019;242
+Leafkin Druid;2019;178
+Boneclad Necromancer;2019;93
+Arrester's Admonition;2019;31
+Footlight Fiend;2019;216
+Open the Gates;2019;133
+Pollenbright Druid;2019;173
+Prized Unicorn;2015;287
+Heir of the Wilds;2014;134
+Elvish Visionary;2015;175
+Nissa's Pilgrimage;2015;190
+Titanic Growth;2018;205
+Plummet;2018;143
+Dragonscale Boon;2014;131
+Naturalize;2018;190
+Ainok Guide;2015;121
+Whisperer of the Wilds;2015;144
+Colossodon Yearling;2015;178
+Healing Hands;2015;17
+Infernal Scarring;2018;103
+Dragon Fodder;2015;140
+Yoked Ox;2013;37
+Hitchclaw Recluse;2015;181
+Bone to Ash;2018;47
+Alchemist's Vial;2015;220
+Ringwarden Owl;2015;68
+Topan Freeblade;2015;36
+Valor in Akros;2015;39
+Eyeblight Massacre;2015;96
+Jhessian Thief;2015;62
+Tragic Arrogance;2015;38
+Hubris;2015;41
+Pensive Minotaur;2014;105
+Akroan Mastiff;2014;3
+Nature's Panoply;2015;131
+Nyx Infusion;2014;77
+Stonewise Fortifier;2014;27
+Rise of Eagles;2014;49
+Pheres-Band Thunderhoof;2014;134
+Bladetusk Boar;2012;121
+Dreadbringer Lampads;2014;67
+Wildfire Cerberus;2014;116
+Stormchaser Chimera;2014;156
+Agent of Erebos;2014;59
+Hall of Triumph;2014;162
+Hand of Silumgar;2015;105
+Territorial Roc;2015;43
+Marsh Hulk;2015;109
+Servant of the Scale;2015;203
+Dirgur Nemesis;2015;51
+Spidersilk Net;2015;244
+Taigam's Strike;2015;81
+Silumgar Butcher;2015;122
+Display of Dominance;2015;182
+Ultimate Price;2015;124
+Ojutai's Command;2015;227
+Sultai Runemark;2015;86
+Abzan Runemark;2015;3
+Aven Surveyor;2015;31
+Ancestral Vengeance;2015;61
+War Flare;2015;158
+Map the Wastes;2015;134
+Formless Nurturing;2015;129
+Sandsteppe Outcast;2015;25
+Honor's Reward;2015;14
+Goblin Boom Keg;2015;159
+Bloodfell Caves;2019;242
+Goblinslide;2014;109
+Master the Way;2014;188
+Skywise Teachings;2015;79
+Send to Sleep;2015;71
+Cancel;2017;47
+Cunning Strike;2015;150
+Elusive Spellfist;2015;53
+Valeron Wardens;2015;203
+Citadel Castellan;2015;213
+Abzan Falconer;2014;2
+Incremental growth;2015;138
+Enshrouding Mist;2015;13
+Topan Freeblade;2015;36
+pharika's Disciple;2015;194
+Rhox Maulers;2015;196
+Dragonscale Boon;2014;131
+Sandblast;2017;20
+Merciless Executioner;2015;76
+Silumgar Sorcerer;2015;76
+Youthful Scholar;2015;84
+Rakshasa Gravecaller;2015;114
+Macabre Waltz;2018;108
+Deadbridge Shaman;2015;91
+Whisk Away;2015;57
+Gurmag Drowner;2015;57
+Sidisi's Faithful;2015;74
+Dutiful Attendant;2015;99
+Monastery swiftspear;2014;118
+Aegis Angel;2015;273
+Mahamoti Djinn;2015;278
+Nightmare;2015;282
+Shivan Dragon;2018;300
+Terra Stomper;2015;288
+Serra Angel;2018;33
+Silkwrap;2015;38
+Divine Verdict;2018;5
+Eagle of the Watch;2015;275
+Alabaster Kirin;2014;4
+Celestial Flare;2015;8
+Erase;2014;9
+Feat of Resistance;2015;10
+Aven Skirmisher;2015;6
+Artful Maneuver;2015;4
+Pacifism;2010;23
+Frost Walker;2015;35
+Into the Void;2015;277
+Weave Fate;2015;279
+Disdainful Stroke;2014;37
+Claustrophobia;2014;27
+Singing Bell Strike;2014;55
+Faerie Miscreant;2015;57
+Aven Surveyor;2015;31
+Anticipate;2018;44
+Elusive Spellfist;2015;53
+Negate;2020;71
+Sengir Vampire;2015;283
+Ultimate Price;2015;124
+Mind Rot;2018;109
+Heron of Hope;2019;18
+The Fall of Lord Konda;2022;12
+Short Circuit;2022;78
+Prodigy's Prototype;2022;231
+Wanderer's Intervention;2022;41
+Papercraft Decoy;2022;253
+Light the Way;2022;24
+Regent's Authority;2022;32
+Replication Specialist;2022;76
+Intercessor's Arrest;2022;20
+Reito Sentinel;2022;256
+When We Were Young;2022;43
+Eiganjo Exemplar;2022;10
+Lucky Offering;022;27
+Searchlight Companion;2022;258
+Brute Suit;2022;241
+Repel the Vile;2022;33
+Runaway Trash-Bot;2022;257
+Imperial Subduer;2022;310
+Disruption Protocol;2022;51
+Covert Technician;2022;49
+Ninja's Kunai;2022;252
+Moonsnare Specialist;2022;70
+Moonfolk Puzzlemaker;2022;68
+Futurist Sentinel;2022;54
+Behold the Unspeakable;2022;48
+Planar Incision;2022;72
+Planar Incision;2022;72
+Spell Pierce;2022;80
+Moonsnare Prototype;2022;69
+Network Terminal;2022;251
+Faerie Guidemother;2019;11
+Queen of Ice;0219;61
+Crystal Slipper;2019;119
+Curious Pair;2019;150
+Reaper of Night;2019;102
+Steelgaze Griffin;2019;65
+Wildwood Tracker;2019;183
+Scorching Dragonfire;2019;139
+Jousting Dummy;2019;224
+Resolute Rider;2019;214
+Animating Faerie;2019;38
+Ferocity of the Wilds;2019;123
+Sorcerous Spyglass;2019;233
+Maximize Altitude;2018;43
+Barging Sergeant;2018;92
+Tenth District Guard;2018;29
+Burglar Rat;2018;64
+Portcullis Vine;2018;142
+Darkblade Agent;2018;164
+Centaur Peacemaker;2018;158
+Whisper Agent;2018;220
+Capture Sphere;2018;31
+Erstwhile Trooper;2018;169
+Nightveil Predator;2018;191
+Plaguecrafter;2018;82
+Swathcutter Giant;2018;202
+Bounty of Might;2018;124
+Izzet Guildgate;2018;251
+Disdainful Stroke;2014;37
+Torch Courier;2018;119
+Hunted Witness;2018;15
+Child of Night;2018;89
+Wary Okapi;2018;149
+Devious Cover-Up;2021;48
+Erstwhile Trooper;2018;169
+Skyknight Legionnaire;2018;198
+Whisper Agent;2018;220
+Candlelight Vigil;2018;3
+Beacon Bolt;2018;154
+Affectionate Indrik;2018;121
+Statue;2018;230
+Dimir Guildgate;2018;245
+Chemister's Insight;2018;32
+Maximize Altitude;2018;43
+Naru Meha, Master Wizard;2018;59
+Desert of the True;2017;174
+Dauntless Bodyguard;2018;14
+Prodigious Growth;2018;194
+Jousting Lance;2018;221
+Anointed Deacon;2017;89
+Thallid Omnivore;2018;106
+Fell Flagship;2017;238
+Sailor of Means;2017;73
+Orcish Vandal;2018;137
+Mist Intruder;2015;61
+Mist Intruder;2015;61
+Eldrazi Skyspawner;2015;58
+Eldrazi Skyspawner;2015;58
+Oakenform;2018;191
+Striped Riverwinder;2017;48
+Storm Fleet Pyromancer;2017;163
+Adventurous Impulse;2018;153
+Khenra Scrapper;2017;100
+Skirk Prospector;2018;144
+Befuddle;2018;45
+Riddleform;2017;43
+Obelisk Spider;2017;141
+Dreamstealer;2017;63
+Jungle Delver;2017;195
+Merciless eternal;2017;71
+Siren's Ruse;2017;80
+Rampaging Hippo;2017;128
+Bishop's Soldier;2018;6
+Rogue's Gloves;2018;243
+Enigma Drake;2018;216
+Carrion Screecher;2017;61
+Oasis Ritualist;2017;124
+Walking Corpse;2018;126
+Skulduggery;2017;123
+Cancel;2010;48
+Sure Strike;2017;166
+Take Vengeance;2018;40
+Sergeant-at-Arms;2018;32
+Corpse Knight;2019;206
+Lightning Stormkin;2019;213
+Moldervine Reclamation;2019;214
+Skyknight Vanguard;2019;218
+Risen Reef;2019;217
+Evolving Wilds;2018;186
+Winged Words;2019;80
+Winged Words;2019;80
+Cloudkin Seer;2019;54
+Cloudkin Seer;2019;54
+Dead Weight;2018;67
+Gateway Plaza;2019;246
+Hunted Witness;2018;15
+Disenchant;2020;10
+Defiant Strike;2019;9
+Aerial Assault;2019;1
+Lazotep Reaver;2019;96
+Spark Harvest;2019;105
+Ob Nixilis's Cruelty;2019;101
+Rugged Highlands;2019;250
+Thornwood Falls;2022;279
+Sorin's Thirst;2019;104
+Negate;2020;71
+Callous Dismissal;2019;44
+Frost Lynx;2019;62
+Unsummon;2019;78
+Unsummon;2019;78
+Bloodfell Caves;2019;242
+Cathar's Shield;2016;192
+Slate Street Ruffian;2013;78
+Tragic Poet;2018;37
+Serra Disciple;2018;34
+Rebuke;2018;103
+Bring Down;2018;26
+Remorseful Cleric;2018;33
+Mighty Leap;2018;28
+Benalish Honor Guard;2018;5
+Tragic Poet;2018;37
+Triumph of Gerrard;2018;38
+Sanctum Spirit;2018;30
+Gideon's Reproach;2018;19
+Sergeant-at-Arms;2018;32
+D'Avenant Trapper;2018;11
+Luminous Bonds;2018;21
+Legion Conquistador;2018;11
+Serra Angel;2018;33
+Ajani's Pridemate;2019;4
+Forerunner of the Legion;2018;9
+Knight's Pledge;2018;19
+Leonin Vanguard;2018;22
+Luminous Bonds;2018;21
+Luminous Bonds;2018;21
+Militia Bugler;2018;29
+Pegasus Courser;2018;32
+Revitalize;2018;35
+Trusty Packbeast;2018;41
+Kor Sky Climber;2016;24
+Totem-Guide Hartebeest;2010;50
+Act of Heroism;2017;1
+Isolate;2018;17
+Arbalest Elite;2011;5
+Arbalest Elite;2011;5
+Disposal Mummy;2017;9
+Honor of the Pure;2011;23
+Angel of the God-Pharaoh;2017;4
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Swamp;2018;194
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Forest;2020;278
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Mountain;2020;383
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Island;2010;236
+Naturalize;2018;190
+Krosan Druid;2018;167
+Aggressive Urge;2018;122
+Forerunner of the Heralds;2018;129
+Sixth Sense;2017;187
+Jadecraft Artisan;2018;135
+Highland Game;2018;188
+Greenwood Sentinel;2019;174
+Runic Armasaur;2018;200
+Rhox Oracle;2018;198
+Giant Spider;2017;166
+Rhox Oracle;2018;198
+Druid of Horns;2018;176
+Greenwood Sentinel;2019;174
+Titanic Growth;2018;205
+Talons of Wildwood;2018;202
+Highland Game;2018;188
+Colossal Dreadmaw;2018;125
+Elvish Rejuvenator;2018;180
+Talons of Wildwood;2018;202
+Plummet;2018;143
+Crash the Ramparts;2017;182
+Tendershoot Dryad;2018;147
+Feral Prowler;2017;115
+Rampaging Hippo;2017;128
+Crash the Ramparts;2017;182
+Crushing Canopy;2017;183
+Enter the Unknown;2018;128
+Naturalize;2018;190
+Aggressive Urge;2018;122
+Spined Wurm;2010;197
+Temur Sabertooth;2015;141
+Frontier Mastodon;2015;130
+Whisperer of the Wilds;2015;144
+Dryad Greenseeker;2018;178
+Gigantosaurus;2018;185
+Vine Mare;2018;207
+Elvish Rejuvenator;2018;180
+Aggressive Urge;2018;122
+Champion of Rhonas;2018;159
+Oashra Cultivator;2017;177
+Humbler of Mortals;2014;127
+Reviving Melody;2014;138
+Orazca Frillback;2018;140
+Yavimaya Wurm;2010;200
+Garruk's Packleader;2010;177
+Selvala's Enforcer;2014;40
+Sixth Sense;2017;187
+Vorstclaw;2019;201
+Wolfir Silverheart;2012;206
+Duskdale Wurm;2010;170
+Blunt the Assault;2010;113
+Dune Diviner;2017;114
+Harrier Naga;2017;118
+Yasova Dragonclaw;2015;148
+Baloth Woodcrasher;2009;157
+Reclamation Sage;2014;194
+Abzan Beastmaster;2015;119
+Abzan Beastmaster;2015;119
+Plummet;2018;143
+Heir of the Wilds;2014;134
+Oak Street Innkeeper;2012;131
+Trollhide;2011;199
+Garruk's Companion;2010;176
+Garruk's Companion;2010;176
+Naturalize;2018;190
+Wildwood Rebirth;2012;140
+Golgari Decoy;2012;127
+Darkthicket Wolf;2011;175
+Gloomwidow;2016;206
+Towering Indrik;2012;137
+Disciple of the Old Ways;2013;118
+Orchard Spirit;2011;198
+Giant Spider;2017;166
+Vastwood Gorger;2012;196
+Leeching Bite;2011;113
+Leatherback Baloth;2010;107
+Jungleborn Pioneer;2018;137
+Jungleborn Pioneer;2018;137
+Fog;2012;172
+Predator's Rapport;2013;129
+Byway Courier;2016;196
+Nature's Spiral;2010;187
+Nicol Bolas, the Arisen;2018;218
+Martyr of Dusk;2018;14
+Gideon, Martial Paragon;2017;270
+Devoted Crop-Mate;2017;10
+Sun Titan;2011;39
+Llanowar Elves;2018;168
+Vineweft;2014;207
+Gideon's Resolve;2017;272
+Explore;2010;99
+Giant Growth;2010;178
+Make a Wish;2011;192
+Baloth Gorger;2018;156
+Wary Okapi;2018;149
+Gaea's Protector;20118;162
+Netcaster Spider;2016;137
+Vines of the Recluse;2016;146
+Krosan Druid;2018;167
+Elfhame Druid;2018;159
+Verdant Force;2018;187
+Giltgrove Stalker;2018;131
+Giltgrove Stalker;2018;131
+Sigarda's Aid;2016;41
+Vanquisher's Banner;2017;251
+Leyline of Sanctity;2019;26
+Forsaken Monument;2020;244
+Eldrazi Conscription;2010;3
+Scour from Existence;2015;13
+Endless One;2015;8
+Artisan of Kozilek;2014;62
+Kozilek's Channeler;2015;10
+Kozilek's Channeler;2015;10
+Salvage Drone;2015;65
+Walker of the Wastes;2016;10
+Walker of the Wastes;2016;10
+Blinding Drone;2016;41
+Blinding Drone;2016;41
+Artisan of Kozilek;2014;62
+Artisan of Kozilek;2014;62
+Cultivator Drone;2016;42
+Cultivator Drone;2016;42
+Cultivator Drone;2016;42
+Emrakul, the Aeons Torn;2018;4
+Bane of Bala Ged;2015;1
+Skeleton Key;2015;263
+Salvage Drone;2015;65
+Throne of the God-Pharaoh;2017;237
+Palladium Myr;2010;190
+Thought Harvester;2016;48
+Mind Stone;2017;219
+Blinding Drone;2016;41
+Mind Stone;2017;219
+Ugin, the Spirit Dragon;2015;1
+All is Dust;2018;1
+Mind Stone;2017;219
+Mind Stone;2017;219
+Artisan of Kozilek;2014;62
+Kozilek's Channeler;2015;10
+Grimoire of the Dead;2011;226
+Cultivator Drone;2016;42
+Eye of Ugin;2010;136
+Captain's Claws;2016;162
+Captain's Claws;2016;162
+Captain's Claws;2016;162
+Captain's Claws;2016;162
+Kitesail Apprentice;2010;10
+Kitesail Apprentice;2010;10
+Kor Hookmaster;2009;20
+Kor Hookmaster;2009;20
+Oblivion Ring;2011;27
+Oblivion Ring;2011;27
+Oblivion Ring;2011;27
+Honor of the Pure;2014;6
+Honor of the Pure;2014;6
+Honor of the Pure;2014;6
+Grafted Wargear;2020;312
+Grafted Wargear;2020;312
+Grafted Wargear;2020;312
+Bonesplitter;2020;458
+Bonesplitter;2020;458
+Sigarda's Aid;2016;41
+Sigarda's Aid;2016;41
+Sigarda's Aid;2016;41
+Darksteel Plate;2018;52
+Bone Saw;2016;161
+Bone Saw;2016;161
+Bone Saw;2016;161
+Bone Saw;2016;161
+Kor Outfitter;2009;21
+Kor Outfitter;2009;21
+Kor Outfitter;2009;21
+Kor Outfitter;2009;21
+Armament Master;2009;1
+Armament Master;2009;1
+Armament Master;2009;1
+Armament Master;2009;1
+Kor Duelist;2009;19
+Kor Duelist;2009;19
+Kor Duelist;2009;19
+Kor Duelist;2009;19
+Wastes;2016;184
+Wastes;2016;184
+Wastes;2016;184
+Wastes;2016;184
+Wastes;2016;184
+Wastes;2016;184
+Wastes;2016;184
+Wastes;2016;184
+Wastes;2016;184
+Wastes;2016;184
+Island;2020;271
+Island;2020;271
+Island;2020;271
+Island;2020;271
+Island;2020;271
+Island;2020;271
+Island;2020;271
+Island;2020;271
+Island;2020;271
+Island;2020;271
+Island;2020;271
+Island;2020;271
+Island;2020;271
+Island;2020;271
+Island;2020;271
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Plains;2018;251
+Lone Rider;2016;33
+Foundry Champion;2013;165
+Jaya's Greeting;2019;136
+Twin Bolt;2015;164
+Twin Bolt;2015;164
+Fiery Cannonade;2017;143
+Collateral Damage;2015;95
+Ravaging Blaze;2015;159
+Ravaging Blaze;2015;159
+Grim Initiate;2019;130
+Grim Initiate;2019;130
+Goblin Cratermaker;2018;103
+Lightning-Rig Crew;2017;150
+Exultant Cultist;2016;59
+Cancel;2017;47
+Dutiful Servants;2017;12
+Slogurk, the Overslime;2021;324

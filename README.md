@@ -124,6 +124,12 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
 * **5/14/22**
     * **15:20**
         * Furthered the search bar to allow to search for color, text, and name.
-        * Changed "main.py" to download the ".ppm" image file from the URL
-        * Added image viewing capabilities into "n_access.py"
+        * Changed "main.py" to download the ".ppm" image file from the URL.
+        * Added image viewing capabilities into "n_access.py".
         * THE IMAGE VIEWING IS EXTREMELY WIP AND IS NOT FULLY IMPLEMENTED
+* **5/15/22**
+    * **14:17**
+        * Fully databased all of my MTG card (after 2 all nighters and 3 Red Bulls).
+        * Fully implemented image viewing.
+        * Cleaned up unnecessary files.
+        * Took a nap.
