@@ -4,7 +4,6 @@ import tkinter as tk
 from tkinter import ttk
 import re
 from PIL import ImageTk, Image
-import io
 
 db = tdb.TinyDB('mtg.json')
 _all = db.all()
@@ -32,11 +31,9 @@ def setup_tv():
         l = [(tv.set(k, col), k) for k in tv.get_children('')]
         l.sort(reverse=reverse)
 
-        # rearrange items in sorted positions
         for index, (val, k) in enumerate(l):
             tv.move(k, '', index)
 
-        # reverse sort next time
         for k, v in cols.items():
             tv.heading(k, text=v[0], command=lambda _col=k: \
                 sort_column(tv, _col, not reverse))
@@ -50,14 +47,11 @@ def setup_tv():
     tree.configure(yscroll=scrollbar.set)
     search = tk.Entry(win)
     scrollbar.grid(row=1, column=0, sticky='WNS')
-    # scrollbar.pack(side='left', fill='y')
     search.grid(row=0, column=1, sticky='EW')
     tree.bind('<ButtonRelease-1>', lambda event: select_item(event, tree.focus()))
-    # tree.pack(side='left', fill='y')
     tree.grid(row=1, column=1)
 
     search.bind('<Return>', lambda event: insert_to_tv(srch(search.get())))
-    # tree.bind('a', lambda event: sort_column(tree, 'name', True))
 
     return tree
 
@@ -106,22 +100,16 @@ def insert_to_tv(cards):
                 list_names.remove(vals[0])
 
 def create_txt(arg):
-    # if len(win.winfo_children()) > 4:
-    #     win.winfo_children()[4].destroy()
     att = ['Name', 'Mana Cost', 'CMC', 'Color(s)', 'Type', 'Subtype(s)', 'Rarity', 'Pow/Tough', 'Loyalty']
-    card_prev = tk.Canvas(win, width=700, bg='#3d424d', highlightthickness=1)
+    card_prev = tk.Canvas(win, width=700, bg='#3d424d', highlightthickness=0)
     im = Image.open(f'imgs/{arg["Name"].replace("/", "")}.ppm')
     img = ImageTk.PhotoImage(im.resize((335, 466)))
     for i in range(len(att)):
         card_prev.create_text(15, 25 + (i * 50), anchor='w', text=f'{att[i]}: {arg[att[i]]}', justify=tk.LEFT, width=200, fill="#FFFFFF")
     card_prev.create_text(15, 475, anchor='nw', text=f'Text: {arg["Text"]}', justify=tk.LEFT, width=200, fill="#FFFFFF")
     card_prev.create_image(250, 25, anchor='nw', image=img)
-    # lbl = tk.Label(win, image=img)
     card_prev.photo = img
-    # lbl.grid(row=1, column=3)
     card_prev.grid(row=1, column=2, sticky='news')
-    for item in card_prev.find_all():
-        print(card_prev.coords(item))
 
 
 def srch(in_txt):
@@ -138,7 +126,6 @@ def srch(in_txt):
                         results = db.search(Card['Color(s)'] is None)
                     else:
                         if arg[0] == '=':
-                            print('startswith =')
                             arg = arg.replace('=', '')
                             for char in arg:
                                 match char.upper():
@@ -203,11 +190,6 @@ def srch(in_txt):
 
 def main():
     insert_to_tv(srch(''))
-    # card_prev = tk.Canvas(win, bg='#3d424d', highlightthickness=1)
-    # card_prev.create_text(15, 400, anchor='w', text='test')
-    # img = tk.PhotoImage(file='imgs/Steppe Glider.ppm')
-    # card_prev.create_image(0, 0, anchor='nw', image=img)
-    # card_prev.grid(row=1, column=2, sticky='news')
     win.mainloop()
 
 

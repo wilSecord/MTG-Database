@@ -30,9 +30,15 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
 - [x] The next goal is to simplify the way to input names of cards. This may end up looking like a text file where I manually input names of cards and read that text file as the input.
 
 
-- [ ] Fully implement a view card data system to display details of card in a separate area in the window.
+- [x] Fully implement a view card data system to display details of card in a separate area in the window.
+
+
+- [ ] Complete search bar implementation.
+
+
+- [ ] Implement extra column for "In Deck"
 #### Stretch goals
-- [ ] Create or find a way to view the database or somehow search through it.
+- [x] Create or find a way to view the database or somehow search through it.
 
 <br>
 
@@ -45,11 +51,13 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
 *(This list may be appended or changed until I am satisfied with the project)*
 
 
-| Name         | Command for pip    |
-|--------------|--------------------|
-| mtgsdk 1.3.1 | pip install mtgsdk |
-| TinyDB 4.6.1 | pip install tinydb |
-| Tkinter 8.6  | pip install tk     |
+| Name            | Command for pip      |
+|-----------------|----------------------|
+| mtgsdk 1.3.1    | pip install mtgsdk   |
+| TinyDB 4.6.1    | pip install tinydb   |
+| Tkinter 8.6     | pip install tk       |
+| Pillow 8.4.0    | pip install pillow   |
+| requests 2.27.1 | pip install requests |
 
 ## Running journal
 
