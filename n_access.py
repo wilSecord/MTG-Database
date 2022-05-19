@@ -203,7 +203,7 @@ def srch(in_str_lst):
 
                 case 'r':
                     arg = in_txt[1:].replace('-', '')
-                    results = db.search(Card['Rarity'].search(str(arg), flags=re.IGNORECASE))
+                    results = db.search(Card['Rarity'] == str(arg.capitalize()))
                     return results
 
         else:
