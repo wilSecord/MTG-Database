@@ -141,3 +141,8 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
         * Fully implemented image viewing.
         * Cleaned up unnecessary files.
         * Took a nap.
+* **5/19/22**
+    * **10:56**
+        * Fixed search bug with searching a word with a search key in it.
+        * Fixed showing last image shown when switching to a Card with no image.
+        * Added search support for "Rarity" and "Subtype(s)"

@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import ttk
 import re
 from PIL import ImageTk, Image
+import os
 
 db = tdb.TinyDB('mtg.json')
 _all = db.all()
@@ -59,7 +60,10 @@ def setup_tv():
 tree = setup_tv()
 
 
-def insert_to_tv(cards):
+def insert_to_tv(srch_t):
+
+    cards = db.search(Card["Name"].search(str(srch_t["n"])))
+
     children = tree.get_children('')
 
     for child in children:
@@ -99,16 +103,24 @@ def insert_to_tv(cards):
                 tree.delete(child)
                 list_names.remove(vals[0])
 
+    print(list_names)
+
 def create_txt(arg):
+    if len(win.winfo_children()) > 3:
+        win.winfo_children()[3].destroy()
+
     att = ['Name', 'Mana Cost', 'CMC', 'Color(s)', 'Type', 'Subtype(s)', 'Rarity', 'Pow/Tough', 'Loyalty']
     card_prev = tk.Canvas(win, width=700, bg='#3d424d', highlightthickness=0)
-    im = Image.open(f'imgs/{arg["Name"].replace("/", "")}.ppm')
-    img = ImageTk.PhotoImage(im.resize((335, 466)))
+
+    if os.path.exists(f'imgs/{arg["Name"].replace("/", "")}.ppm'):
+        im = Image.open(f'imgs/{arg["Name"].replace("/", "")}.ppm')
+        img = ImageTk.PhotoImage(im.resize((335, 466)))
+        card_prev.create_image(250, 25, anchor='nw', image=img)
+        card_prev.photo = img
+
     for i in range(len(att)):
         card_prev.create_text(15, 25 + (i * 50), anchor='w', text=f'{att[i]}: {arg[att[i]]}', justify=tk.LEFT, width=200, fill="#FFFFFF")
     card_prev.create_text(15, 475, anchor='nw', text=f'Text: {arg["Text"]}', justify=tk.LEFT, width=200, fill="#FFFFFF")
-    card_prev.create_image(250, 25, anchor='nw', image=img)
-    card_prev.photo = img
     card_prev.grid(row=1, column=2, sticky='news')
 
 
@@ -128,7 +140,7 @@ def srch(in_str_lst):
                         if arg.upper() == 'NONE':
                             clrs = None
                             results = db.search(Card['Color(s)'] is None)
-                            # search_terms.append({'c': None})
+                            search_terms.append({'c': None})
                         else:
                             if arg[0] == '=':
                                 arg = arg.replace('=', '')
@@ -145,7 +157,7 @@ def srch(in_str_lst):
                                         case 'G':
                                             clrs.append("Green")
                                 results = db.search(Card['Color(s)'] == clrs)
-                                # search_terms.append({'c': ['=', clrs]})
+                                search_terms.append({'c': ['=', clrs]})
                             else:
                                 for char in arg:
                                     match char.upper():
@@ -161,53 +173,44 @@ def srch(in_str_lst):
                                             clrs.append("Green")
 
                                 results = db.search(Card['Color(s)'].any(clrs))
-                                # search_terms.append({'c': [arg]})
-                        return results
+                                search_terms.append({'c': [arg]})
+                        # return results
 
                 case 'n':
                     arg = in_txt[1:].replace('-', '')
                     results = db.search(Card['Name'].search(str(arg), flags=re.IGNORECASE))
-                    # search_terms.append({'n': str(arg)})
-                    return results
+                    search_terms.append({'n': str(arg)})
+                    # return results
 
                 case 't':
                     arg = in_txt[1:].replace('-', '')
                     results = db.search(Card['Text'].search(str(arg), flags=re.IGNORECASE))
-                    # search_terms.append({'t': str(arg)})
-                    return results
+                    search_terms.append({'t': str(arg)})
+                    # return results
 
-                case 'm':
-                    arg = in_txt[1:].replace('-', '')
+                case 'cmc':
+                    arg = in_txt[4:].replace('-', '')
                     match arg[0]:
                         case '>':
                             arg = arg.replace('>', '')
                             results = db.search(Card['CMC'] > int(arg))
-                            # search_terms.append({'cmc': int(arg)})
-                            return results
+                            search_terms.append({'cmc': int(arg)})
+                            # return results
 
                         case '<':
                             arg = arg.replace('<', '')
-                            results = db.search(Card['CMC'] < int(arg))
-                            # search_terms.append({'cmc': int(arg)})
-                            return results
+                            # results = db.search(Card['CMC'] < int(arg))
+                            search_terms.append({'cmc': int(arg)})
+                            # return results
 
                         case '=':
                             arg = arg.replace('=', '')
-                            results = db.search(Card['CMC'] == int(arg))
-                            # search_terms.append({'cmc': int(arg)})
-                            return results
-                case 's':
-                    arg = in_txt[1:].replace('-', '')
-                    results = db.search(Card['Subtype(s)'].any(arg.capitalize()))
-                    return results
-
-                case 'r':
-                    arg = in_txt[1:].replace('-', '')
-                    results = db.search(Card['Rarity'].search(str(arg), flags=re.IGNORECASE))
-                    return results
+                            # results = db.search(Card['CMC'] == int(arg))
+                            search_terms.append({'cmc': int(arg)})
+                            # return results
 
         else:
-            return _all
+            search_terms = []
 
     print(search_terms)
     return search_terms
@@ -215,10 +218,15 @@ def srch(in_str_lst):
     # for item in searches:
     #     searches.search
 
-def main():
-    insert_to_tv(srch(''))
-    win.mainloop()
 
+
+def main():
+    srch('n-div+c-=bu')
+    # print(db.search(Card.fragment({'Name': 'Nicol Bolas, the Ravager // Nicol Bolas, the Arisen', 'Color(s)': ['Black', 'Red', 'Blue']})))
+    # for item in db.search(Card['Name'].search('Div') & Card['Color(s)'].any(['White'])):
+    #     print(item)
+
+    # win.mainloop()
 
 
 if __name__ == '__main__':
