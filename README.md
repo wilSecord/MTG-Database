@@ -148,3 +148,7 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
         * Added search support for "Rarity" and "Subtype(s)"
     * **12:37**
         * Fixed a rarity search bug involving where when searching for "common" would return "Common" and "Uncommon" cards.
+* **5/29/22**
+    * **11:34**
+        * Added a file "secmain.py" that goes through and downloads all images of cards. IF YOU DECIDE TO RUN THE FILE MAKE SURE YOU HAVE A LOT OF TIME AND SPACE ITS 37 GB
+        * WIP WARNING: "n_access.py" will not work with the images for now but that will be updated later in the day.
