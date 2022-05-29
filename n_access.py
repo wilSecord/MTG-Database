@@ -77,8 +77,6 @@ def insert_to_tv(cards):
         for item in cards:
             list_names.append(item['Name'])
 
-
-
         for item in cards:
             pt = replace_none(item['Pow/Tough'], 'None/None')
             mc = replace_none(item['Mana Cost'], None)
@@ -102,7 +100,8 @@ def insert_to_tv(cards):
 def create_txt(arg):
     att = ['Name', 'Mana Cost', 'CMC', 'Color(s)', 'Type', 'Subtype(s)', 'Rarity', 'Pow/Tough', 'Loyalty']
     card_prev = tk.Canvas(win, width=700, bg='#3d424d', highlightthickness=0)
-    im = Image.open(f'imgs/{arg["Name"].replace("/", "")}.ppm')
+    name = arg["Name"].replace("/", "").replace('?', '')
+    im = Image.open(f'images/{name}.ppm')
     img = ImageTk.PhotoImage(im.resize((335, 466)))
     for i in range(len(att)):
         card_prev.create_text(15, 25 + (i * 50), anchor='w', text=f'{att[i]}: {arg[att[i]]}', justify=tk.LEFT, width=200, fill="#FFFFFF")
