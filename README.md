@@ -154,3 +154,8 @@ Finally the last box with "2/2" explains how powerful the card is. It can deal 2
         * WIP WARNING: "n_access.py" will not work with the images for now but that will be updated later in the day.
     * **11:59**
         * Fixed previous warning. Works as expected now.
+* **6/20/22**
+    * **03:43**
+        * Added a system to append a card to the database within the gui.
+        * WIP: will be working on importing from a file.
+        * Auto sort the treeview by name alphabetically descending on start.
